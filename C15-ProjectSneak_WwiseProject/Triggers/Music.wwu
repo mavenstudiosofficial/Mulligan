@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F1FFC5A0-3FD8-4FEA-8402-A85049D84B2F}" SchemaVersion="123">
+	<Triggers>
+		<WorkUnit Name="Music" ID="{F1FFC5A0-3FD8-4FEA-8402-A85049D84B2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="CardPull" ID="{0F5181E7-A158-414C-9118-ED41089C38B1}"/>
+				<Trigger Name="BigArtifactTake" ID="{44DE525C-AEEF-40EF-8820-749044FFFFF2}"/>
+				<Trigger Name="Death" ID="{76A371B3-BDAD-46FF-9625-B8293E796697}"/>
+				<Trigger Name="CursedCardPull" ID="{91F39331-5DC5-4CC3-8630-09317394D7E2}"/>
+				<Trigger Name="SecretPassage" ID="{6F6ED458-FF78-4929-BA01-547A5FC658BD}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>
