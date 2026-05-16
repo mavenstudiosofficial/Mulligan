@@ -1,0 +1,129 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2110347762",
+    "Type": "Event",
+    "GUID": "{8F42EE61-C62E-466E-8677-9D52D7C7C35D}",
+    "Language": "SFX",
+    "Hash": "{3FE99C72-CE3D-74CD-92C2-9F0421074BED}",
+    "ObjectPath": "Play_Walk_Footstep",
+    "ShortName": "Play_Walk_Footstep",
+    "Path": "Event/Play_Walk_Footstep.bnk",
+    "Media": [
+     {
+      "Id": "100847930",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_FS_WALK_STN_CONCRETE_02.wav",
+      "Path": "Media/100847930.wem",
+      "CachePath": "22/{226AEB7A-16BB-AAF3-F883-E12672DFC71C}.wem"
+     },
+     {
+      "Id": "357273715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_FS_WALK_STN_CONCRETE_04.wav",
+      "Path": "Media/357273715.wem",
+      "CachePath": "7C/{7CF1A419-86DC-41BC-7EEA-58F9BA9952B7}.wem"
+     },
+     {
+      "Id": "674444691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_FS_WALK_STN_CONCRETE_01.wav",
+      "Path": "Media/674444691.wem",
+      "CachePath": "2D/{2D53FD60-3794-1956-D16E-18C2C63E32D7}.wem"
+     },
+     {
+      "Id": "891017566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_FS_WALK_STN_CONCRETE_05.wav",
+      "Path": "Media/891017566.wem",
+      "CachePath": "C6/{C6BE91CE-76AE-7A7F-FCBB-4DCCE833A6D4}.wem"
+     },
+     {
+      "Id": "923594326",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_FS_WALK_STN_CONCRETE_03.wav",
+      "Path": "Media/923594326.wem",
+      "CachePath": "EC/{ECA7D0FD-88F9-FC21-D7AF-562D8DB47A7C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2110347762",
+      "Name": "Play_Walk_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Walk_Footstep",
+      "GUID": "{8F42EE61-C62E-466E-8677-9D52D7C7C35D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24650191",
+      "DurationMax": "0.40434358",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4064446173",
+         "Id": "841620460",
+         "GUID": "{196EA11C-5CD1-4FC8-9BA9-732ACC0AD75F}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "100847930"
+         },
+         {
+          "Id": "357273715"
+         },
+         {
+          "Id": "674444691"
+         },
+         {
+          "Id": "891017566"
+         },
+         {
+          "Id": "923594326"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4064446173",
+      "Name": "Surface_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface_Type",
+      "GUID": "{30EEE535-EBB5-4942-9091-98C4B1022F9A}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface_Type\\Concrete",
+        "GUID": "{196EA11C-5CD1-4FC8-9BA9-732ACC0AD75F}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface_Type\\Gravel",
+        "GUID": "{F7C32B8A-269D-40FC-827C-A9AD79B726D7}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DEDC32D5-AE1A-743E-3BC7-40671B15C2F0}"
+ }
+}

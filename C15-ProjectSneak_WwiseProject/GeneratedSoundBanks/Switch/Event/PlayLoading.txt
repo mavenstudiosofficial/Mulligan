@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4941877	PlayLoading			\Music\Stingers\PlayLoading	
+

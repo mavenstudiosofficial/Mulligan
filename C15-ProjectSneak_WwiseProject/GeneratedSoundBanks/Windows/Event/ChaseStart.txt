@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	337538827	ChaseStart			\Music\_PERSISTENT\ChaseStart	
+

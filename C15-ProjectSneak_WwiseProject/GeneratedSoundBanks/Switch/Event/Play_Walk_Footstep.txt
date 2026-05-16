@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2110347762	Play_Walk_Footstep			\Default Work Unit\Play_Walk_Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Surface_Type			
+	2185786256	Gravel	Surface_Type			
+

@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3689126666",
+    "Type": "Event",
+    "GUID": "{74DE2097-9132-424C-B45E-46AB1BEC1BEF}",
+    "Language": "SFX",
+    "Hash": "{54D44ECC-CD15-D4F9-9604-08EDF1C0E8DD}",
+    "ObjectPath": "Play_Jump",
+    "ShortName": "Play_Jump",
+    "Path": "Event/Play_Jump.bnk",
+    "Media": [
+     {
+      "Id": "159300670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_STN_JUMP_CONCRETE_02.wav",
+      "Path": "Media/159300670.wem",
+      "CachePath": "82/{82D0905B-5208-AE62-87A6-E603AAA9DCA3}.wem"
+     },
+     {
+      "Id": "193733257",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_STN_JUMP_CONCRETE_01.wav",
+      "Path": "Media/193733257.wem",
+      "CachePath": "DD/{DD60E054-6DED-3EFA-ED39-2566BCF856A8}.wem"
+     },
+     {
+      "Id": "906968877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_STN_JUMP_CONCRETE_03.wav",
+      "Path": "Media/906968877.wem",
+      "CachePath": "A3/{A34F5602-67AE-4891-1CFF-074F5F4FD06D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
+      "GUID": "{74DE2097-9132-424C-B45E-46AB1BEC1BEF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.68594253",
+      "MediaRefs": [
+       {
+        "Id": "159300670"
+       },
+       {
+        "Id": "193733257"
+       },
+       {
+        "Id": "906968877"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{97442508-9EBB-C62A-9491-FF0002728C54}"
+ }
+}

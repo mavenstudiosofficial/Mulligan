@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3005658730	Room_Barracks			\Music\Castle\Room_Barracks	
+

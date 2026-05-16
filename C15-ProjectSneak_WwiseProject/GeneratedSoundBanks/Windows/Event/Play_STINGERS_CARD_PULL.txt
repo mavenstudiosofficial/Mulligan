@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3574382174	Play_STINGERS_CARD_PULL			\Default Work Unit\Play_STINGERS_CARD_PULL	
+

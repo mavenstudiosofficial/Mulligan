@@ -1,0 +1,104 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3017085135",
+    "Type": "Event",
+    "GUID": "{97643E8D-D30D-462F-84A7-0570AE0F5DAE}",
+    "Language": "SFX",
+    "Hash": "{E784134E-EC82-D96D-3964-9AD4E1C1D7EE}",
+    "ObjectPath": "SetupState_Ready",
+    "ShortName": "SetupState_Ready",
+    "Path": "Event/SetupState_Ready.bnk",
+    "Media": [
+     {
+      "Id": "887352098",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "mx_Home10_ReadyUp_120bpm_ENDS.wav",
+      "Path": "Media/887352098.wem",
+      "CachePath": "BC/{BCE6BDCF-06A6-BE83-F827-6E958E4616D6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3017085135",
+      "Name": "SetupState_Ready",
+      "ObjectPath": "\\Events\\Music\\Setup\\SetupState_Ready",
+      "GUID": "{97643E8D-D30D-462F-84A7-0570AE0F5DAE}",
+      "Color": "8",
+      "DurationType": "OneShot",
+      "DurationMin": "13.653333",
+      "DurationMax": "13.653333",
+      "MediaRefs": [
+       {
+        "Id": "887352098"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "3243446833",
+        "Id": "3701637754",
+        "Name": "Ready",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Ready",
+        "GUID": "{DA07B354-2782-4638-993A-7885A1A02856}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3243446833",
+      "Name": "SetupPosition",
+      "ObjectPath": "\\States\\Music\\SetupPosition",
+      "GUID": "{68116199-A62F-460B-9465-75AC67119268}",
+      "States": [
+       {
+        "Id": "251412225",
+        "Name": "Shop",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Shop",
+        "GUID": "{BD884CE5-690D-45B8-9E5D-BDBACBCA6632}"
+       },
+       {
+        "Id": "436743010",
+        "Name": "Character",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Character",
+        "GUID": "{DF4440D1-8FCF-4F71-B46F-D66FFB991D7F}"
+       },
+       {
+        "Id": "670611050",
+        "Name": "Neutral",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Neutral",
+        "GUID": "{71ACB668-C22C-483B-9558-3AFB5777A61E}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\None",
+        "GUID": "{95AD0394-3C97-4B8F-A249-709BF08B5257}"
+       },
+       {
+        "Id": "3701637754",
+        "Name": "Ready",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Ready",
+        "GUID": "{DA07B354-2782-4638-993A-7885A1A02856}"
+       },
+       {
+        "Id": "4256484138",
+        "Name": "Cards",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Cards",
+        "GUID": "{C80D31DF-AABD-4E3B-BB4C-A30DC8FB27E7}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CED01E91-B1F2-950D-36D1-FE5E4F922C13}"
+ }
+}

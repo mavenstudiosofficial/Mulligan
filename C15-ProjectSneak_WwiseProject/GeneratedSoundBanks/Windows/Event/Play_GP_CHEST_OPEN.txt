@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2363792068	Play_GP_CHEST_OPEN			\Default Work Unit\Play_GP_CHEST_OPEN	
+

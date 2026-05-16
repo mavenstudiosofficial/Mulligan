@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1033006670",
+    "Type": "Event",
+    "GUID": "{B3DA9BBC-64E0-422D-9E41-3B72ED1CBA29}",
+    "Language": "SFX",
+    "Hash": "{807B76AB-8B21-A8BA-1C01-50FA5115B13E}",
+    "ObjectPath": "Stop_GP_ELEVATOR",
+    "ShortName": "Stop_GP_ELEVATOR",
+    "Path": "Event/Stop_GP_ELEVATOR.bnk",
+    "Events": [
+     {
+      "Id": "1033006670",
+      "Name": "Stop_GP_ELEVATOR",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GP_ELEVATOR",
+      "GUID": "{B3DA9BBC-64E0-422D-9E41-3B72ED1CBA29}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AF998637-FC85-7E8F-DCD8-6C1EAF6AD2C5}"
+ }
+}

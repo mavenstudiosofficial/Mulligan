@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2402799210",
+    "Type": "Event",
+    "GUID": "{888E1DB1-F060-4DE7-A134-EC2E6130C9D1}",
+    "Language": "SFX",
+    "Hash": "{3B406F56-8D6A-20AC-1ABA-615D03799B83}",
+    "ObjectPath": "Play_GP_SPIKE_TRAP",
+    "ShortName": "Play_GP_SPIKE_TRAP",
+    "Path": "Event/Play_GP_SPIKE_TRAP.bnk",
+    "Media": [
+     {
+      "Id": "553714461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_SPIKE_TRAP.wav",
+      "Path": "Media/553714461.wem",
+      "CachePath": "87/{87D60F36-A167-180A-EA52-37A38C14A360}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2402799210",
+      "Name": "Play_GP_SPIKE_TRAP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_SPIKE_TRAP",
+      "GUID": "{888E1DB1-F060-4DE7-A134-EC2E6130C9D1}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7133336",
+      "DurationMax": "0.91181654",
+      "MediaRefs": [
+       {
+        "Id": "553714461"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{90ADCA83-F439-4593-2343-521367823F5E}"
+ }
+}

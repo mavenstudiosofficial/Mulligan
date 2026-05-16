@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2117145127",
+    "Type": "Event",
+    "GUID": "{FE1838E8-1748-4B84-90B9-18E3D4B94210}",
+    "Language": "SFX",
+    "Hash": "{0D9EE591-181C-BDA7-04CB-43BE56185B99}",
+    "ObjectPath": "Pause_GME_Receive",
+    "ShortName": "Pause_GME_Receive",
+    "Path": "Event/Pause_GME_Receive.bnk",
+    "Events": [
+     {
+      "Id": "2117145127",
+      "Name": "Pause_GME_Receive",
+      "ObjectPath": "\\Events\\Default Work Unit\\GME\\Pause_GME_Receive",
+      "GUID": "{FE1838E8-1748-4B84-90B9-18E3D4B94210}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{22E178C4-92C5-998D-42B0-82C780661DAC}"
+ }
+}

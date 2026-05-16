@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "692351460",
+    "Type": "Event",
+    "GUID": "{E3DB3AD2-6464-4EC3-85D2-D8887794CF3F}",
+    "Language": "SFX",
+    "Hash": "{4E6A99CC-3964-D204-5939-6CE8C9549B08}",
+    "ObjectPath": "Play_AMB_TORCHS",
+    "ShortName": "Play_AMB_TORCHS",
+    "Path": "Event/Play_AMB_TORCHS.bnk",
+    "Media": [
+     {
+      "Id": "649003232",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_TORCH.wav",
+      "Path": "Media/649003232.wem",
+      "CachePath": "59/{59A0215C-418D-C5C2-C972-3CAED8C48509}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "692351460",
+      "Name": "Play_AMB_TORCHS",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_TORCHS",
+      "GUID": "{E3DB3AD2-6464-4EC3-85D2-D8887794CF3F}",
+      "MaxAttenuation": "1700",
+      "DurationType": "OneShot",
+      "DurationMin": "240",
+      "DurationMax": "240",
+      "MediaRefs": [
+       {
+        "Id": "649003232"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8A8ADE4E-3697-4D2F-659B-E42B7FA50753}"
+ }
+}

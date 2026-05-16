@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3088057131	SetEscaping			\Music\_PERSISTENT\SetEscaping	
+

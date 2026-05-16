@@ -1,0 +1,96 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2915184573",
+    "Type": "Event",
+    "GUID": "{4D947A3F-3426-447E-AB72-EC6AA611DB24}",
+    "Language": "SFX",
+    "Hash": "{C584E17B-F428-584D-433C-F63516CE9E59}",
+    "ObjectPath": "Play_GP_DECK_ADD",
+    "ShortName": "Play_GP_DECK_ADD",
+    "Path": "Event/Play_GP_DECK_ADD.bnk",
+    "Media": [
+     {
+      "Id": "169805486",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_DECK_ADD_CARD-003.wav",
+      "Path": "Media/169805486.wem",
+      "CachePath": "13/{1388B9F2-53D6-271A-AB04-6EE5FD83F861}.wem"
+     },
+     {
+      "Id": "184468931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_DECK_ADD_CARD-005.wav",
+      "Path": "Media/184468931.wem",
+      "CachePath": "BF/{BFB4E5A0-DDFC-5ACD-0A8D-54D062AC088D}.wem"
+     },
+     {
+      "Id": "374240842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_DECK_ADD_CARD-002.wav",
+      "Path": "Media/374240842.wem",
+      "CachePath": "E9/{E9244307-528F-451A-A58F-D3CFB83D09D0}.wem"
+     },
+     {
+      "Id": "397825355",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_DECK_ADD_CARD-001.wav",
+      "Path": "Media/397825355.wem",
+      "CachePath": "45/{451A232C-291B-F6D8-0D2A-CF99E8DF8C8E}.wem"
+     },
+     {
+      "Id": "575941350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_DECK_ADD_CARD-004.wav",
+      "Path": "Media/575941350.wem",
+      "CachePath": "8C/{8C92F556-9733-0628-BDD2-04EF81E1365E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2915184573",
+      "Name": "Play_GP_DECK_ADD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_DECK_ADD",
+      "GUID": "{4D947A3F-3426-447E-AB72-EC6AA611DB24}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.09813962",
+      "DurationMax": "0.27057654",
+      "MediaRefs": [
+       {
+        "Id": "169805486"
+       },
+       {
+        "Id": "184468931"
+       },
+       {
+        "Id": "374240842"
+       },
+       {
+        "Id": "397825355"
+       },
+       {
+        "Id": "575941350"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A2F3639B-CEF7-4CB3-F53C-1CEE06150ABF}"
+ }
+}

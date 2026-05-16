@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3574382174",
+    "Type": "Event",
+    "GUID": "{8EA09233-7CC0-421A-AE90-9FDC3655544D}",
+    "Language": "SFX",
+    "Hash": "{1FAAC029-BF7A-3112-2310-CABB12EE88AC}",
+    "ObjectPath": "Play_STINGERS_CARD_PULL",
+    "ShortName": "Play_STINGERS_CARD_PULL",
+    "Path": "Event/Play_STINGERS_CARD_PULL.bnk",
+    "Media": [
+     {
+      "Id": "1072643031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_CARD_PULL.wav",
+      "Path": "Media/1072643031.wem",
+      "CachePath": "15/{15E56803-F908-36EB-FD8A-1FB861DA4317}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3574382174",
+      "Name": "Play_STINGERS_CARD_PULL",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_STINGERS_CARD_PULL",
+      "GUID": "{8EA09233-7CC0-421A-AE90-9FDC3655544D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.7763734",
+      "DurationMax": "2.7763734",
+      "MediaRefs": [
+       {
+        "Id": "1072643031"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E67F0CE2-4406-58C8-F351-11CE30BD2581}"
+ }
+}

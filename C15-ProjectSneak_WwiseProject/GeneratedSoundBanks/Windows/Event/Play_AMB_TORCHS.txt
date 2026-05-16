@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	692351460	Play_AMB_TORCHS			\Default Work Unit\Play_AMB_TORCHS	
+

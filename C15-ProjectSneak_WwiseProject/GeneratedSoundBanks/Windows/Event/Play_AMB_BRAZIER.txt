@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	132194644	Play_AMB_BRAZIER			\Default Work Unit\Play_AMB_BRAZIER	
+

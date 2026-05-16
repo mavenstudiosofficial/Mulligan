@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4216315522",
+    "Type": "Event",
+    "GUID": "{67ED1F1A-8AC4-4C48-8ADD-077142EC18C2}",
+    "Language": "SFX",
+    "Hash": "{8F8B26F4-E4FF-50AC-A427-2B5FE5E422BD}",
+    "ObjectPath": "Pause_GME_Send",
+    "ShortName": "Pause_GME_Send",
+    "Path": "Event/Pause_GME_Send.bnk",
+    "Events": [
+     {
+      "Id": "4216315522",
+      "Name": "Pause_GME_Send",
+      "ObjectPath": "\\Events\\Default Work Unit\\GME\\Pause_GME_Send",
+      "GUID": "{67ED1F1A-8AC4-4C48-8ADD-077142EC18C2}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7CA74B12-5990-71C5-C277-8C0188E79BB0}"
+ }
+}

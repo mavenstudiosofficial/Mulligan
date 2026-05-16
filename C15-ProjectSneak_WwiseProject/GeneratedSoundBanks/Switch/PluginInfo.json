@@ -1,0 +1,47 @@
+{
+ "PluginInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "PluginLibs": [
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Tencent GME Source",
+    "LibId": "589894162",
+    "Type": "Source",
+    "DLL": "TencentGME",
+    "StaticLib": "TencentGME"
+   },
+   {
+    "LibName": "Tencent GME Receive",
+    "LibId": "590025234",
+    "Type": "Source",
+    "DLL": "TencentGME",
+    "StaticLib": "TencentGME"
+   },
+   {
+    "LibName": "Tencent GME Send",
+    "LibId": "590090771",
+    "Type": "Effect",
+    "DLL": "TencentGME",
+    "StaticLib": "TencentGME"
+   },
+   {
+    "LibName": "Tencent GME Session",
+    "LibId": "590156307",
+    "Type": "Effect",
+    "DLL": "TencentGME",
+    "StaticLib": "TencentGME"
+   }
+  ],
+  "FileHash": "{B552B95D-AA85-3D01-5A1C-66005C18F6FF}"
+ }
+}

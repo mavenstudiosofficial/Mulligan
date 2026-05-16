@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2793175796",
+    "Type": "Event",
+    "GUID": "{2036B55F-F9D1-49DD-A005-3665E4D99D4B}",
+    "Language": "SFX",
+    "Hash": "{242E16DF-CD9F-4147-A0A9-6EDB2E4F22D1}",
+    "ObjectPath": "Play_GME_Send",
+    "ShortName": "Play_GME_Send",
+    "Path": "Event/Play_GME_Send.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "825567751",
+       "Name": "Tencent GME Source",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\GME\\GME Send\\Tencent GME Source",
+       "GUID": "{8BDC5F67-3192-473C-9A58-7BEC819B9673}",
+       "LibName": "Tencent GME Source",
+       "LibId": "589894162"
+      },
+      {
+       "Id": "931673898",
+       "Name": "Tencent GME Send (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\GME\\GME Send\\[Effect Slot [0]: (Tencent GME Send)]\\Tencent GME Send (Custom)",
+       "GUID": "{4F3EDB44-9EF9-4D12-86C8-EB0F6FE07D2D}",
+       "LibName": "Tencent GME Send",
+       "LibId": "590090771"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2793175796",
+      "Name": "Play_GME_Send",
+      "ObjectPath": "\\Events\\Default Work Unit\\GME\\Play_GME_Send",
+      "GUID": "{2036B55F-F9D1-49DD-A005-3665E4D99D4B}",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "825567751"
+        },
+        {
+         "Id": "931673898"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1D576A9A-B63C-CE86-06D0-8229DEBE0B4A}"
+ }
+}

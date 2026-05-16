@@ -1,0 +1,77 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3775613461",
+    "Type": "Event",
+    "GUID": "{5D9746CB-FECB-4FD6-9327-83529869B0AE}",
+    "Language": "SFX",
+    "Hash": "{0A07773B-E817-CE7C-D709-FC78CA896D9E}",
+    "ObjectPath": "SetDisturbanceMid",
+    "ShortName": "SetDisturbanceMid",
+    "Path": "Event/SetDisturbanceMid.bnk",
+    "Events": [
+     {
+      "Id": "3775613461",
+      "Name": "SetDisturbanceMid",
+      "ObjectPath": "\\Events\\Music\\_PERSISTENT\\SetDisturbanceMid",
+      "GUID": "{5D9746CB-FECB-4FD6-9327-83529869B0AE}",
+      "Color": "9",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3851350167",
+        "Id": "2849147824",
+        "Name": "Medium",
+        "ObjectPath": "\\States\\Music\\Disturbance\\Medium",
+        "GUID": "{7F133278-E3A1-4056-A2F3-F3F9E900C6C8}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3851350167",
+      "Name": "Disturbance",
+      "ObjectPath": "\\States\\Music\\Disturbance",
+      "GUID": "{225FD3F5-79CA-4E31-9ACE-A0BD35868227}",
+      "States": [
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Music\\Disturbance\\Low",
+        "GUID": "{7A179F01-53BA-4E0A-8951-09623C25A2C6}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Disturbance\\None",
+        "GUID": "{DAB988F2-9238-4DEC-887B-F798BB62AAD4}"
+       },
+       {
+        "Id": "2849147824",
+        "Name": "Medium",
+        "ObjectPath": "\\States\\Music\\Disturbance\\Medium",
+        "GUID": "{7F133278-E3A1-4056-A2F3-F3F9E900C6C8}"
+       },
+       {
+        "Id": "3550808449",
+        "Name": "High",
+        "ObjectPath": "\\States\\Music\\Disturbance\\High",
+        "GUID": "{CF2DE152-F99C-4FB1-904E-948E58A2B9E5}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FC6FE339-6B20-5BB8-FE15-7A6CA32F1074}"
+ }
+}

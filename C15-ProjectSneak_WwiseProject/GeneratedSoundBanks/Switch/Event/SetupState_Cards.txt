@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1000238207	SetupState_Cards			\Music\Setup\SetupState_Cards	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2716286172	PlayBigArtifactTake			\Music\Stingers\PlayBigArtifactTake	
+

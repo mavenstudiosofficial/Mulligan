@@ -1,0 +1,89 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2925274518",
+    "Type": "Event",
+    "GUID": "{E60B9462-7432-4AB6-A7AD-30C70809C04E}",
+    "Language": "SFX",
+    "Hash": "{8BCCB13F-CAEE-8FFC-E855-435179F38964}",
+    "ObjectPath": "SetupState_Shop",
+    "ShortName": "SetupState_Shop",
+    "Path": "Event/SetupState_Shop.bnk",
+    "Events": [
+     {
+      "Id": "2925274518",
+      "Name": "SetupState_Shop",
+      "ObjectPath": "\\Events\\Music\\Setup\\SetupState_Shop",
+      "GUID": "{E60B9462-7432-4AB6-A7AD-30C70809C04E}",
+      "Color": "8",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3243446833",
+        "Id": "251412225",
+        "Name": "Shop",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Shop",
+        "GUID": "{BD884CE5-690D-45B8-9E5D-BDBACBCA6632}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3243446833",
+      "Name": "SetupPosition",
+      "ObjectPath": "\\States\\Music\\SetupPosition",
+      "GUID": "{68116199-A62F-460B-9465-75AC67119268}",
+      "States": [
+       {
+        "Id": "251412225",
+        "Name": "Shop",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Shop",
+        "GUID": "{BD884CE5-690D-45B8-9E5D-BDBACBCA6632}"
+       },
+       {
+        "Id": "436743010",
+        "Name": "Character",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Character",
+        "GUID": "{DF4440D1-8FCF-4F71-B46F-D66FFB991D7F}"
+       },
+       {
+        "Id": "670611050",
+        "Name": "Neutral",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Neutral",
+        "GUID": "{71ACB668-C22C-483B-9558-3AFB5777A61E}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\None",
+        "GUID": "{95AD0394-3C97-4B8F-A249-709BF08B5257}"
+       },
+       {
+        "Id": "3701637754",
+        "Name": "Ready",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Ready",
+        "GUID": "{DA07B354-2782-4638-993A-7885A1A02856}"
+       },
+       {
+        "Id": "4256484138",
+        "Name": "Cards",
+        "ObjectPath": "\\States\\Music\\SetupPosition\\Cards",
+        "GUID": "{C80D31DF-AABD-4E3B-BB4C-A30DC8FB27E7}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D6109FC7-137A-4D06-E1FA-6ABDEB444A89}"
+ }
+}

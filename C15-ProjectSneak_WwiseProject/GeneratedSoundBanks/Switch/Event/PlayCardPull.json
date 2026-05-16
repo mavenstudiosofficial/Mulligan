@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3775756392",
+    "Type": "Event",
+    "GUID": "{800A32D8-1EAB-481C-864A-79F982A7F7B4}",
+    "Language": "SFX",
+    "Hash": "{F27AB890-18CA-FBC0-D0F5-DB99144BAFA9}",
+    "ObjectPath": "PlayCardPull",
+    "ShortName": "PlayCardPull",
+    "Path": "Event/PlayCardPull.bnk",
+    "Events": [
+     {
+      "Id": "3775756392",
+      "Name": "PlayCardPull",
+      "ObjectPath": "\\Events\\Music\\Stingers\\PlayCardPull",
+      "GUID": "{800A32D8-1EAB-481C-864A-79F982A7F7B4}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionTrigger": [
+       {
+        "Id": "569898222",
+        "Name": "CardPull",
+        "ObjectPath": "\\Triggers\\Music\\CardPull",
+        "GUID": "{0F5181E7-A158-414C-9118-ED41089C38B1}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "569898222",
+      "Name": "CardPull",
+      "ObjectPath": "\\Triggers\\Music\\CardPull",
+      "GUID": "{0F5181E7-A158-414C-9118-ED41089C38B1}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{117F1EDC-25DA-1ACE-36DF-3B0222D93C4E}"
+ }
+}

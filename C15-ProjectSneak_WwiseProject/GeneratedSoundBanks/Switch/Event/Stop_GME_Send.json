@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2839222858",
+    "Type": "Event",
+    "GUID": "{9718EBA6-5965-429E-8FEE-A61EA58B8C83}",
+    "Language": "SFX",
+    "Hash": "{A0426753-B2A9-618D-1B0E-50CBAA440576}",
+    "ObjectPath": "Stop_GME_Send",
+    "ShortName": "Stop_GME_Send",
+    "Path": "Event/Stop_GME_Send.bnk",
+    "Events": [
+     {
+      "Id": "2839222858",
+      "Name": "Stop_GME_Send",
+      "ObjectPath": "\\Events\\Default Work Unit\\GME\\Stop_GME_Send",
+      "GUID": "{9718EBA6-5965-429E-8FEE-A61EA58B8C83}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BD64A75E-138A-77E9-4579-0D2C68800D11}"
+ }
+}

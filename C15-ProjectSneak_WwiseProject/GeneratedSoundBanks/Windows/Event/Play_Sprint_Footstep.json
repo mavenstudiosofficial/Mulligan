@@ -1,0 +1,54 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2099804235",
+    "Type": "Event",
+    "GUID": "{A578F6FB-0850-4EB8-9C4F-E05A0986AC5B}",
+    "Language": "SFX",
+    "Hash": "{58D49A6E-56AE-9D1B-36B2-5B3542969268}",
+    "ObjectPath": "Play_Sprint_Footstep",
+    "ShortName": "Play_Sprint_Footstep",
+    "Path": "Event/Play_Sprint_Footstep.bnk",
+    "Events": [
+     {
+      "Id": "2099804235",
+      "Name": "Play_Sprint_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Sprint_Footstep",
+      "GUID": "{A578F6FB-0850-4EB8-9C4F-E05A0986AC5B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4064446173",
+      "Name": "Surface_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface_Type",
+      "GUID": "{30EEE535-EBB5-4942-9091-98C4B1022F9A}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface_Type\\Concrete",
+        "GUID": "{196EA11C-5CD1-4FC8-9BA9-732ACC0AD75F}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface_Type\\Gravel",
+        "GUID": "{F7C32B8A-269D-40FC-827C-A9AD79B726D7}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D7B1204E-796E-6983-B7F0-84442502574A}"
+ }
+}

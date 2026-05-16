@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2716286172",
+    "Type": "Event",
+    "GUID": "{D3F04BAC-F16B-404B-9EE1-90E608B4D01B}",
+    "Language": "SFX",
+    "Hash": "{6D5178CB-3F03-5771-8F8C-F87D04FF6FA9}",
+    "ObjectPath": "PlayBigArtifactTake",
+    "ShortName": "PlayBigArtifactTake",
+    "Path": "Event/PlayBigArtifactTake.bnk",
+    "Events": [
+     {
+      "Id": "2716286172",
+      "Name": "PlayBigArtifactTake",
+      "ObjectPath": "\\Events\\Music\\Stingers\\PlayBigArtifactTake",
+      "GUID": "{D3F04BAC-F16B-404B-9EE1-90E608B4D01B}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionTrigger": [
+       {
+        "Id": "709529134",
+        "Name": "BigArtifactTake",
+        "ObjectPath": "\\Triggers\\Music\\BigArtifactTake",
+        "GUID": "{44DE525C-AEEF-40EF-8820-749044FFFFF2}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "709529134",
+      "Name": "BigArtifactTake",
+      "ObjectPath": "\\Triggers\\Music\\BigArtifactTake",
+      "GUID": "{44DE525C-AEEF-40EF-8820-749044FFFFF2}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E2CB5FE9-B86B-3B55-6F5D-921143B1456F}"
+ }
+}

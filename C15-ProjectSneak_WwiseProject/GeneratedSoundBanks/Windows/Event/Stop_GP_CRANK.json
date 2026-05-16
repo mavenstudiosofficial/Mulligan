@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2741940585",
+    "Type": "Event",
+    "GUID": "{DEDFA56E-F2A1-4BE5-97EF-0BCAE1B0BFE0}",
+    "Language": "SFX",
+    "Hash": "{F31EF35E-23A4-18D2-E04E-C2C660940698}",
+    "ObjectPath": "Stop_GP_CRANK",
+    "ShortName": "Stop_GP_CRANK",
+    "Path": "Event/Stop_GP_CRANK.bnk",
+    "Events": [
+     {
+      "Id": "2741940585",
+      "Name": "Stop_GP_CRANK",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GP_CRANK",
+      "GUID": "{DEDFA56E-F2A1-4BE5-97EF-0BCAE1B0BFE0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CB8E48D3-DDFA-C8FF-EB36-4BAB96BD1BA5}"
+ }
+}

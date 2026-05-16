@@ -1,0 +1,83 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3981089834",
+    "Type": "Event",
+    "GUID": "{1456E721-24F3-4E15-A564-9BEF7300B69C}",
+    "Language": "SFX",
+    "Hash": "{4B9AC807-1241-5AB5-FE92-F611FFC3F2F7}",
+    "ObjectPath": "SetNotch3",
+    "ShortName": "SetNotch3",
+    "Path": "Event/SetNotch3.bnk",
+    "Events": [
+     {
+      "Id": "3981089834",
+      "Name": "SetNotch3",
+      "ObjectPath": "\\Events\\Music\\Boiler\\SetNotch3",
+      "GUID": "{1456E721-24F3-4E15-A564-9BEF7300B69C}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3774690448",
+        "Id": "1668749520",
+        "Name": "N3",
+        "ObjectPath": "\\States\\Music\\BoilerNotch\\N3",
+        "GUID": "{A1E87485-CED5-49F7-85AD-EC3FB90B8899}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3774690448",
+      "Name": "BoilerNotch",
+      "ObjectPath": "\\States\\Music\\BoilerNotch",
+      "GUID": "{9755802C-6E99-412F-AF6E-A8404F70F951}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\BoilerNotch\\None",
+        "GUID": "{C3A46210-B0AC-4984-9D93-BE4CBA8AE4DB}"
+       },
+       {
+        "Id": "1668749520",
+        "Name": "N3",
+        "ObjectPath": "\\States\\Music\\BoilerNotch\\N3",
+        "GUID": "{A1E87485-CED5-49F7-85AD-EC3FB90B8899}"
+       },
+       {
+        "Id": "1668749521",
+        "Name": "N2",
+        "ObjectPath": "\\States\\Music\\BoilerNotch\\N2",
+        "GUID": "{A2A9CAED-3A31-4D65-8185-888187356C32}"
+       },
+       {
+        "Id": "1668749522",
+        "Name": "N1",
+        "ObjectPath": "\\States\\Music\\BoilerNotch\\N1",
+        "GUID": "{F2621B87-7DB7-42D9-AE4D-AB8BAC4B32C8}"
+       },
+       {
+        "Id": "1668749527",
+        "Name": "N4",
+        "ObjectPath": "\\States\\Music\\BoilerNotch\\N4",
+        "GUID": "{8C496575-D65B-44A4-AC4D-DD020BAB5A01}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{27C083F7-5C92-B7BB-B41F-5E31AB36B99C}"
+ }
+}

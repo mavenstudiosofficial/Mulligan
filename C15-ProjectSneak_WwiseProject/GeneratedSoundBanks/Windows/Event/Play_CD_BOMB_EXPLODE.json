@@ -1,0 +1,85 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4131550668",
+    "Type": "Event",
+    "GUID": "{14B244DA-4DCF-4C4C-A09D-62AFA103AE78}",
+    "Language": "SFX",
+    "Hash": "{6044B7DF-4F38-4214-B0CB-34BF8CED64F4}",
+    "ObjectPath": "Play_CD_BOMB_EXPLODE",
+    "ShortName": "Play_CD_BOMB_EXPLODE",
+    "Path": "Event/Play_CD_BOMB_EXPLODE.bnk",
+    "Media": [
+     {
+      "Id": "267805359",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CD_BOMB_EXPLODE-003.wav",
+      "Path": "Media/267805359.wem",
+      "CachePath": "97/{97C017CA-42FA-885F-B352-EA5A1F54BCAE}.wem"
+     },
+     {
+      "Id": "686609215",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CD_BOMB_EXPLODE-004.wav",
+      "Path": "Media/686609215.wem",
+      "CachePath": "B6/{B626ECB9-6426-9D41-00A7-5024A704DC30}.wem"
+     },
+     {
+      "Id": "856313956",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CD_BOMB_EXPLODE-002.wav",
+      "Path": "Media/856313956.wem",
+      "CachePath": "1C/{1CB75AA8-78D3-E0B8-4497-4911CB5056A9}.wem"
+     },
+     {
+      "Id": "941636957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CD_BOMB_EXPLODE-001.wav",
+      "Path": "Media/941636957.wem",
+      "CachePath": "01/{018CBBEC-5557-19A6-5D3B-573D529CCC86}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4131550668",
+      "Name": "Play_CD_BOMB_EXPLODE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CD_BOMB_EXPLODE",
+      "GUID": "{14B244DA-4DCF-4C4C-A09D-62AFA103AE78}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.87517804",
+      "DurationMax": "1.4375983",
+      "MediaRefs": [
+       {
+        "Id": "267805359"
+       },
+       {
+        "Id": "686609215"
+       },
+       {
+        "Id": "856313956"
+       },
+       {
+        "Id": "941636957"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C5BE0FE0-5938-B440-DF9A-0C947C5C70D8}"
+ }
+}

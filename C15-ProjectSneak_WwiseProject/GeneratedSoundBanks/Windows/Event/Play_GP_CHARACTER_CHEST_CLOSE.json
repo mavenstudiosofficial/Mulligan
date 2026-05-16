@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2260478876",
+    "Type": "Event",
+    "GUID": "{FDC7AC5A-B3BE-4CB3-91D3-7247B58DE828}",
+    "Language": "SFX",
+    "Hash": "{0DACEC88-7A66-4541-D5EB-454D3BCAA472}",
+    "ObjectPath": "Play_GP_CHARACTER_CHEST_CLOSE",
+    "ShortName": "Play_GP_CHARACTER_CHEST_CLOSE",
+    "Path": "Event/Play_GP_CHARACTER_CHEST_CLOSE.bnk",
+    "Media": [
+     {
+      "Id": "112466613",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_CHARACTER_CHEST_CLOSE_01.wav",
+      "Path": "Media/112466613.wem",
+      "CachePath": "DC/{DCED1902-D1ED-68F7-9766-9AD5CB58439F}.wem"
+     },
+     {
+      "Id": "128987787",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_CHARACTER_CHEST_CLOSE_02.wav",
+      "Path": "Media/128987787.wem",
+      "CachePath": "E9/{E986A833-08A2-7DEE-E8AF-81534B4493F7}.wem"
+     },
+     {
+      "Id": "827609917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_CHARACTER_CHEST_CLOSE_03.wav",
+      "Path": "Media/827609917.wem",
+      "CachePath": "8E/{8E2256AD-B233-7331-9C98-D7B39B01C5B2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2260478876",
+      "Name": "Play_GP_CHARACTER_CHEST_CLOSE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_CHARACTER_CHEST_CLOSE",
+      "GUID": "{FDC7AC5A-B3BE-4CB3-91D3-7247B58DE828}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.4599724",
+      "MediaRefs": [
+       {
+        "Id": "112466613"
+       },
+       {
+        "Id": "128987787"
+       },
+       {
+        "Id": "827609917"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BA4D4648-3AD7-8AD1-BA5F-E706379B968D}"
+ }
+}

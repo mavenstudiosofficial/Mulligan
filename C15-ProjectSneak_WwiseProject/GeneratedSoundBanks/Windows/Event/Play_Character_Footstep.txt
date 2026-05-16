@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3767448136	Play_Character_Footstep			\Default Work Unit\Play_Character_Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	436743010	Character			\Default Work Unit\Character	
+	2129636626	Movement			\Default Work Unit\Movement	
+	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	1008270286	Strength	Character			
+	1903017255	Strange	Character			
+	2465395870	Support	Character			
+	2884887403	Sneak	Character			
+	1296465089	Sprint	Movement			
+	2108779966	Walk	Movement			
+	841620460	Concrete	Surface_Type			
+	2185786256	Gravel	Surface_Type			
+

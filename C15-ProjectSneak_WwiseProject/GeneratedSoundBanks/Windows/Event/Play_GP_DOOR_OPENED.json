@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1673763914",
+    "Type": "Event",
+    "GUID": "{4ABFF100-8BC3-48CD-891F-CC4D1A4BF0C2}",
+    "Language": "SFX",
+    "Hash": "{2E74A5BF-2F7F-4C35-6FE3-DCDE3ECD3DB9}",
+    "ObjectPath": "Play_GP_DOOR_OPENED",
+    "ShortName": "Play_GP_DOOR_OPENED",
+    "Path": "Event/Play_GP_DOOR_OPENED.bnk",
+    "Media": [
+     {
+      "Id": "419281537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_DOOR_OPENED.wav",
+      "Path": "Media/419281537.wem",
+      "CachePath": "43/{43D2EE6A-1D3C-2E15-1CE5-53AC08EF50A4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1673763914",
+      "Name": "Play_GP_DOOR_OPENED",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_DOOR_OPENED",
+      "GUID": "{4ABFF100-8BC3-48CD-891F-CC4D1A4BF0C2}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2725214",
+      "DurationMax": "1.2725214",
+      "MediaRefs": [
+       {
+        "Id": "419281537"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6A4A9878-19F3-E7EC-1914-BAA9BB2B67BE}"
+ }
+}

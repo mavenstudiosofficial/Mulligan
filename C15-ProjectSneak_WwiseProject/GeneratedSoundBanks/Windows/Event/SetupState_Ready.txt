@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3017085135	SetupState_Ready			\Music\Setup\SetupState_Ready	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2678230316	Levels			\Music\Levels	
+
+State	ID	Name	State Group			Notes
+	129146593	Castle	Levels			
+	260303802	Boiler	Levels			
+	417490929	Chase	Levels			
+	748895195	None	Levels			
+	979765101	Win	Levels			
+	2607556080	Menu	Levels			
+	2761606855	Crypt	Levels			
+	3573931707	Loading	Levels			
+	3965737440	Setup	Levels			
+

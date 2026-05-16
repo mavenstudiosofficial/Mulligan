@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2741940585	Stop_GP_CRANK			\Default Work Unit\Stop_GP_CRANK	
+

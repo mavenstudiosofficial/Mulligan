@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "132194644",
+    "Type": "Event",
+    "GUID": "{C626A897-827C-4FA6-AEA4-1AEFD4585949}",
+    "Language": "SFX",
+    "Hash": "{7A9346D2-3B7A-2080-222F-333E88868800}",
+    "ObjectPath": "Play_AMB_BRAZIER",
+    "ShortName": "Play_AMB_BRAZIER",
+    "Path": "Event/Play_AMB_BRAZIER.bnk",
+    "Media": [
+     {
+      "Id": "375882609",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_TORCH.wav",
+      "Path": "Media/375882609.wem",
+      "CachePath": "D3/{D3B48715-A0E2-F0C0-7BCA-3FCB4008C77A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "132194644",
+      "Name": "Play_AMB_BRAZIER",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_BRAZIER",
+      "GUID": "{C626A897-827C-4FA6-AEA4-1AEFD4585949}",
+      "MaxAttenuation": "1700",
+      "DurationType": "OneShot",
+      "DurationMin": "239.53847",
+      "DurationMax": "239.53847",
+      "MediaRefs": [
+       {
+        "Id": "375882609"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D40ED99C-9B8D-4E5D-DD44-E2C3FA1E76D7}"
+ }
+}

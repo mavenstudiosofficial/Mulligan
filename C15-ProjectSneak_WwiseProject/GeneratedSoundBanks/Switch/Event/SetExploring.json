@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3762438901",
+    "Type": "Event",
+    "GUID": "{6E6BBC65-82A3-49C5-AC51-702AF026A7A2}",
+    "Language": "SFX",
+    "Hash": "{5323F88F-0241-9F12-9441-0F6B76DE4359}",
+    "ObjectPath": "SetExploring",
+    "ShortName": "SetExploring",
+    "Path": "Event/SetExploring.bnk",
+    "Events": [
+     {
+      "Id": "3762438901",
+      "Name": "SetExploring",
+      "ObjectPath": "\\Events\\Music\\_PERSISTENT\\SetExploring",
+      "GUID": "{6E6BBC65-82A3-49C5-AC51-702AF026A7A2}",
+      "Color": "9",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3169107872",
+        "Id": "1823678183",
+        "Name": "Exploring",
+        "ObjectPath": "\\States\\Music\\Escape\\Exploring",
+        "GUID": "{7E6DC6D2-418B-4E95-B147-4161BFF59D14}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3169107872",
+      "Name": "Escape",
+      "ObjectPath": "\\States\\Music\\Escape",
+      "GUID": "{6695E217-20C0-4F68-A0EB-B0E7D993CE9F}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Escape\\None",
+        "GUID": "{A2098A39-F0E9-4D57-BF52-63691B312A20}"
+       },
+       {
+        "Id": "1786932473",
+        "Name": "Escaping",
+        "ObjectPath": "\\States\\Music\\Escape\\Escaping",
+        "GUID": "{CFEC8AB2-668B-464D-B969-27FF0491E874}"
+       },
+       {
+        "Id": "1823678183",
+        "Name": "Exploring",
+        "ObjectPath": "\\States\\Music\\Escape\\Exploring",
+        "GUID": "{7E6DC6D2-418B-4E95-B147-4161BFF59D14}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B09EF073-E6B6-69BA-6080-5997D123C3EB}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1068705510",
+    "Type": "Event",
+    "GUID": "{F3427C0A-D85C-48C3-BCC1-1E0DD8348BBD}",
+    "Language": "SFX",
+    "Hash": "{9FC1B381-EF46-A9C8-E8CE-D49AB1919037}",
+    "ObjectPath": "Play_GP_DOOR_RUMBLE",
+    "ShortName": "Play_GP_DOOR_RUMBLE",
+    "Path": "Event/Play_GP_DOOR_RUMBLE.bnk",
+    "Media": [
+     {
+      "Id": "829695527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_DOOR_RUMBLE.wav",
+      "Path": "Media/829695527.wem",
+      "CachePath": "06/{06C711A2-84C5-3206-9A39-C66A3FE37B3C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1068705510",
+      "Name": "Play_GP_DOOR_RUMBLE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_DOOR_RUMBLE",
+      "GUID": "{F3427C0A-D85C-48C3-BCC1-1E0DD8348BBD}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "829695527"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CF5BF527-A521-30D3-6ADA-BBADAC015D16}"
+ }
+}

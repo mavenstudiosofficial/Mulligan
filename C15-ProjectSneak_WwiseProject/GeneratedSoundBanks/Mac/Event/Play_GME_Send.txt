@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2793175796	Play_GME_Send			\Default Work Unit\GME\Play_GME_Send	
+
+Effect plug-ins	ID	Name	Type				Notes
+	931673898	Tencent GME Send (Custom)	Tencent GME Send			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	825567751	Tencent GME Source	Tencent GME Source		\Actor-Mixer Hierarchy\Default Work Unit\GME\GME Send\Tencent GME Source	
+

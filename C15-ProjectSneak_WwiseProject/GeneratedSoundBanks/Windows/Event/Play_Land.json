@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4285282925",
+    "Type": "Event",
+    "GUID": "{A5D52DDB-27BD-4594-99DB-2AD9214BCA3F}",
+    "Language": "SFX",
+    "Hash": "{0C4DFD33-67B3-7C2F-E00F-C5AB7D5791BC}",
+    "ObjectPath": "Play_Land",
+    "ShortName": "Play_Land",
+    "Path": "Event/Play_Land.bnk",
+    "Media": [
+     {
+      "Id": "346376898",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_STN_JUMP_LAND_02.wav",
+      "Path": "Media/346376898.wem",
+      "CachePath": "0F/{0FC7ECA9-EFB1-4D74-1E4F-136D521A4EBA}.wem"
+     },
+     {
+      "Id": "471068404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_STN_JUMP_LAND_01.wav",
+      "Path": "Media/471068404.wem",
+      "CachePath": "43/{4341EC4B-D376-2093-7548-230922724F63}.wem"
+     },
+     {
+      "Id": "798362304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PLR_STN_JUMP_LAND_03.wav",
+      "Path": "Media/798362304.wem",
+      "CachePath": "A8/{A838D2F2-186B-1704-7B7C-6FC53417AFE4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4285282925",
+      "Name": "Play_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Land",
+      "GUID": "{A5D52DDB-27BD-4594-99DB-2AD9214BCA3F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27439278",
+      "DurationMax": "0.3796766",
+      "MediaRefs": [
+       {
+        "Id": "346376898"
+       },
+       {
+        "Id": "471068404"
+       },
+       {
+        "Id": "798362304"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B18BC731-7FCE-9B4C-FCD0-6A7A63682700}"
+ }
+}

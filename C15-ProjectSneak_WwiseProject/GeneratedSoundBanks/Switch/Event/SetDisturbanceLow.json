@@ -1,0 +1,77 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "51232505",
+    "Type": "Event",
+    "GUID": "{64F8431D-E9C7-4D29-BAAB-D9A17636FD54}",
+    "Language": "SFX",
+    "Hash": "{A21E23A2-D3B0-21B2-1722-F6311196FF5C}",
+    "ObjectPath": "SetDisturbanceLow",
+    "ShortName": "SetDisturbanceLow",
+    "Path": "Event/SetDisturbanceLow.bnk",
+    "Events": [
+     {
+      "Id": "51232505",
+      "Name": "SetDisturbanceLow",
+      "ObjectPath": "\\Events\\Music\\_PERSISTENT\\SetDisturbanceLow",
+      "GUID": "{64F8431D-E9C7-4D29-BAAB-D9A17636FD54}",
+      "Color": "9",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3851350167",
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Music\\Disturbance\\Low",
+        "GUID": "{7A179F01-53BA-4E0A-8951-09623C25A2C6}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3851350167",
+      "Name": "Disturbance",
+      "ObjectPath": "\\States\\Music\\Disturbance",
+      "GUID": "{225FD3F5-79CA-4E31-9ACE-A0BD35868227}",
+      "States": [
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Music\\Disturbance\\Low",
+        "GUID": "{7A179F01-53BA-4E0A-8951-09623C25A2C6}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Disturbance\\None",
+        "GUID": "{DAB988F2-9238-4DEC-887B-F798BB62AAD4}"
+       },
+       {
+        "Id": "2849147824",
+        "Name": "Medium",
+        "ObjectPath": "\\States\\Music\\Disturbance\\Medium",
+        "GUID": "{7F133278-E3A1-4056-A2F3-F3F9E900C6C8}"
+       },
+       {
+        "Id": "3550808449",
+        "Name": "High",
+        "ObjectPath": "\\States\\Music\\Disturbance\\High",
+        "GUID": "{CF2DE152-F99C-4FB1-904E-948E58A2B9E5}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BC4F72A8-248A-F31A-A99E-71019477C9CE}"
+ }
+}

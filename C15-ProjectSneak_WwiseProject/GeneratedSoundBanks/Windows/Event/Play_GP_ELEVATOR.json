@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3842785368",
+    "Type": "Event",
+    "GUID": "{4C00ABDC-8D55-4A29-9E3E-80357403A87C}",
+    "Language": "SFX",
+    "Hash": "{13D441F9-7F5C-E2C2-5CE1-B3FA6086E2F4}",
+    "ObjectPath": "Play_GP_ELEVATOR",
+    "ShortName": "Play_GP_ELEVATOR",
+    "Path": "Event/Play_GP_ELEVATOR.bnk",
+    "Media": [
+     {
+      "Id": "867176353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "elevator_rumble_1.wav",
+      "Path": "Media/867176353.wem",
+      "CachePath": "D7/{D7948F88-151C-DF55-E673-A635CAE93559}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3842785368",
+      "Name": "Play_GP_ELEVATOR",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_ELEVATOR",
+      "GUID": "{4C00ABDC-8D55-4A29-9E3E-80357403A87C}",
+      "MaxAttenuation": "1700",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "867176353"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D0427ADA-40F3-A41A-304D-0D3C14E318FE}"
+ }
+}

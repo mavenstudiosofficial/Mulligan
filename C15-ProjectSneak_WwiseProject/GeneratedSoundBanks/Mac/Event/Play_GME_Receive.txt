@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1185674625	Play_GME_Receive			\Default Work Unit\GME\Play_GME_Receive	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	225565245	Tencent GME Receive	Tencent GME Receive		\Actor-Mixer Hierarchy\Default Work Unit\GME\GME Receive\Tencent GME Receive	
+

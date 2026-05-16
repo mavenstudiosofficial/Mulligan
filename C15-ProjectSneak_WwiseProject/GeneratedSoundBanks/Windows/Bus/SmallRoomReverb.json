@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2227188135",
+    "Type": "Bus",
+    "GUID": "{56D91B1D-40E8-4E21-A294-53E442EF6B68}",
+    "Language": "SFX",
+    "Hash": "{575B22C0-AF2C-DB24-721E-ACC777807633}",
+    "ObjectPath": "SmallRoomReverb",
+    "ShortName": "SmallRoomReverb",
+    "Path": "Bus/SmallRoomReverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1159390747",
+       "Name": "Room_Medium_Tiled",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_Tiled",
+       "GUID": "{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2227188135",
+      "Name": "SmallRoomReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Music\\Master Audio Bus_01\\SmallRoomReverb",
+      "GUID": "{56D91B1D-40E8-4E21-A294-53E442EF6B68}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1159390747"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{72E1ABC2-401F-E8C5-4F82-BD77E884092B}"
+ }
+}

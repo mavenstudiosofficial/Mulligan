@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2007211132",
+    "Type": "Event",
+    "GUID": "{B35D2BEE-8AD2-460E-81B6-1F281A657DF3}",
+    "Language": "SFX",
+    "Hash": "{DCD4D243-5CF7-318F-B720-7225BF765F2D}",
+    "ObjectPath": "Play_UI_SLIDER",
+    "ShortName": "Play_UI_SLIDER",
+    "Path": "Event/Play_UI_SLIDER.bnk",
+    "Media": [
+     {
+      "Id": "553830906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_SLIDER.wav",
+      "Path": "Media/553830906.wem",
+      "CachePath": "7A/{7AF04DD6-96A5-1B36-BE02-B4504FB5D901}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2007211132",
+      "Name": "Play_UI_SLIDER",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_SLIDER",
+      "GUID": "{B35D2BEE-8AD2-460E-81B6-1F281A657DF3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.059354167",
+      "DurationMax": "0.059354167",
+      "MediaRefs": [
+       {
+        "Id": "553830906"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C3987A6A-53F5-5BD6-8496-D78FDEEC281E}"
+ }
+}

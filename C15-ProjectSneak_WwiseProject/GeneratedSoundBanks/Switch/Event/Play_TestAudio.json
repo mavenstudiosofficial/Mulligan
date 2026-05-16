@@ -1,0 +1,65 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "928036824",
+    "Type": "Event",
+    "GUID": "{FD0888CA-84D2-45D7-ACBA-A5B20E0BDDBA}",
+    "Language": "SFX",
+    "Hash": "{468DB644-DEA8-347B-948E-DD93E2690F5E}",
+    "ObjectPath": "Play_TestAudio",
+    "ShortName": "Play_TestAudio",
+    "Path": "Event/Play_TestAudio.bnk",
+    "Media": [
+     {
+      "Id": "6250930",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TestAudio.wav",
+      "Path": "Media/6250930.wem",
+      "CachePath": "60/{60D82663-36C8-C6C8-86BF-98C71D06B140}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "120728380",
+       "Name": "Tencent GME Send (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\GME\\TestAudio\\[Effect Slot [0]: (Tencent GME Send)]\\Tencent GME Send (Custom)",
+       "GUID": "{FBA80281-1FD4-45CF-997D-46355BB5B984}",
+       "LibName": "Tencent GME Send",
+       "LibId": "590090771"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "928036824",
+      "Name": "Play_TestAudio",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TestAudio",
+      "GUID": "{FD0888CA-84D2-45D7-ACBA-A5B20E0BDDBA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "6250930"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "120728380"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{73BCB11C-895E-3A58-2335-0630FEAD694D}"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2575198950",
+    "Type": "Event",
+    "GUID": "{4C5D6745-40F5-4335-9BE9-DD9331948A71}",
+    "Language": "SFX",
+    "Hash": "{B926DD0C-01BE-2646-E872-E9FF4B6596AD}",
+    "ObjectPath": "Room_Hall",
+    "ShortName": "Room_Hall",
+    "Path": "Event/Room_Hall.bnk",
+    "Events": [
+     {
+      "Id": "2575198950",
+      "Name": "Room_Hall",
+      "ObjectPath": "\\Events\\Music\\Castle\\Room_Hall",
+      "GUID": "{4C5D6745-40F5-4335-9BE9-DD9331948A71}",
+      "Color": "4",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3288739564",
+        "Id": "3633416828",
+        "Name": "Hall",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Hall",
+        "GUID": "{7DDB712C-D5C1-4785-A409-1395A3C549B5}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3288739564",
+      "Name": "CastleRoom",
+      "ObjectPath": "\\States\\Music\\CastleRoom",
+      "GUID": "{C5AD4F20-ADB9-423D-82F2-D4A2B425E068}",
+      "States": [
+       {
+        "Id": "26822469",
+        "Name": "Exit",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Exit",
+        "GUID": "{0505AE1C-5A30-43FB-97EB-F60D0559DABB}"
+       },
+       {
+        "Id": "534960938",
+        "Name": "Courtyard",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Courtyard",
+        "GUID": "{0893BAB4-325A-458F-B174-283DBEBBABC8}"
+       },
+       {
+        "Id": "581285820",
+        "Name": "Foyer",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Foyer",
+        "GUID": "{77D797F3-D616-47F8-BC17-9552104F390B}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\None",
+        "GUID": "{F7835CE7-CF41-4B3C-805C-6E4D8B6A0CA5}"
+       },
+       {
+        "Id": "906603238",
+        "Name": "Torture",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Torture",
+        "GUID": "{D475AB88-FFEC-4E81-B1D9-B4B6CCD4158D}"
+       },
+       {
+        "Id": "1586158131",
+        "Name": "Kitchen",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Kitchen",
+        "GUID": "{BCF4B2EE-7A24-419E-BC1C-6CB14A743652}"
+       },
+       {
+        "Id": "1737926756",
+        "Name": "Tower",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Tower",
+        "GUID": "{7B697ADA-7296-4A9A-BDF4-97226CAB949E}"
+       },
+       {
+        "Id": "1840777923",
+        "Name": "Throne",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Throne",
+        "GUID": "{8A8DF83E-219E-44AB-A054-84703192E7C7}"
+       },
+       {
+        "Id": "3254642680",
+        "Name": "Barracks",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Barracks",
+        "GUID": "{9443F216-1EA7-4F4C-A5C1-13A5E3669C36}"
+       },
+       {
+        "Id": "3633416828",
+        "Name": "Hall",
+        "ObjectPath": "\\States\\Music\\CastleRoom\\Hall",
+        "GUID": "{7DDB712C-D5C1-4785-A409-1395A3C549B5}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{75C33E2D-0E7D-2A4B-D50B-FD2E332300B9}"
+ }
+}

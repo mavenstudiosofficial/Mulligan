@@ -1,0 +1,62 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2678230316	Levels			\Music\Levels	
+	3169107872	Escape			\Music\Escape	
+	3243446833	SetupPosition			\Music\SetupPosition	
+	3288739564	CastleRoom			\Music\CastleRoom	
+	3774690448	BoilerNotch			\Music\BoilerNotch	
+	3851350167	Disturbance			\Music\Disturbance	
+
+State	ID	Name	State Group			Notes
+	129146593	Castle	Levels			
+	260303802	Boiler	Levels			
+	417490929	Chase	Levels			
+	748895195	None	Levels			
+	979765101	Win	Levels			
+	2607556080	Menu	Levels			
+	2761606855	Crypt	Levels			
+	3573931707	Loading	Levels			
+	3965737440	Setup	Levels			
+	748895195	None	Escape			
+	1786932473	Escaping	Escape			
+	1823678183	Exploring	Escape			
+	251412225	Shop	SetupPosition			
+	436743010	Character	SetupPosition			
+	670611050	Neutral	SetupPosition			
+	748895195	None	SetupPosition			
+	3701637754	Ready	SetupPosition			
+	4256484138	Cards	SetupPosition			
+	26822469	Exit	CastleRoom			
+	534960938	Courtyard	CastleRoom			
+	581285820	Foyer	CastleRoom			
+	748895195	None	CastleRoom			
+	906603238	Torture	CastleRoom			
+	1586158131	Kitchen	CastleRoom			
+	1737926756	Tower	CastleRoom			
+	1840777923	Throne	CastleRoom			
+	3254642680	Barracks	CastleRoom			
+	3633416828	Hall	CastleRoom			
+	748895195	None	BoilerNotch			
+	1668749520	N3	BoilerNotch			
+	1668749521	N2	BoilerNotch			
+	1668749522	N1	BoilerNotch			
+	1668749527	N4	BoilerNotch			
+	545371365	Low	Disturbance			
+	748895195	None	Disturbance			
+	2849147824	Medium	Disturbance			
+	3550808449	High	Disturbance			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	231849611	SendAudioBus			\Default Work Unit\Master Audio Bus_01\SendAudioBus	
+	2940432316	Stingers			\Music\Master Audio Bus\Stingers	
+	3803692087	Master Audio Bus			\Music\Master Audio Bus	
+	3991942870	Music			\Music\Master Audio Bus\Music	
+	4267419003	Master Audio Bus_01			\Default Work Unit\Master Audio Bus_01	
+
+Effect plug-ins	ID	Name	Type				Notes
+	241452960	Tencent GME Send (Custom)	Tencent GME Send			
+	772245983	Tencent GME Session (Custom)	Tencent GME Session			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

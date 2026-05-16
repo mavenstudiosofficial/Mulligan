@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1061478008",
+    "Type": "Event",
+    "GUID": "{7F2972FA-4EB2-460B-83B3-58FFABAA94E9}",
+    "Language": "SFX",
+    "Hash": "{14BA4AFE-5864-F635-7A06-FF5E3EB352A4}",
+    "ObjectPath": "Play_GP_COLLECT_GEM",
+    "ShortName": "Play_GP_COLLECT_GEM",
+    "Path": "Event/Play_GP_COLLECT_GEM.bnk",
+    "Media": [
+     {
+      "Id": "135880348",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_COLLECT_GEM_03.wav",
+      "Path": "Media/135880348.wem",
+      "CachePath": "04/{0420DFC0-5E48-CC76-CD63-CACEB2CC4668}.wem"
+     },
+     {
+      "Id": "784875934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_COLLECT_GEM_02.wav",
+      "Path": "Media/784875934.wem",
+      "CachePath": "D6/{D68FF27E-8BE1-63FB-90BD-7F9C1DAC1592}.wem"
+     },
+     {
+      "Id": "949772371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_COLLECT_GEM_01.wav",
+      "Path": "Media/949772371.wem",
+      "CachePath": "CB/{CBE64413-F45C-B87C-A47C-6F42620C87CE}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1061478008",
+      "Name": "Play_GP_COLLECT_GEM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_COLLECT_GEM",
+      "GUID": "{7F2972FA-4EB2-460B-83B3-58FFABAA94E9}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.64375937",
+      "DurationMax": "0.811086",
+      "MediaRefs": [
+       {
+        "Id": "135880348"
+       },
+       {
+        "Id": "784875934"
+       },
+       {
+        "Id": "949772371"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AB27014E-B871-BCD9-798D-767F5659A5E6}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3639992833	Play_GP_CRUSHER_TRAP_HEAD			\Default Work Unit\Play_GP_CRUSHER_TRAP_HEAD	
+

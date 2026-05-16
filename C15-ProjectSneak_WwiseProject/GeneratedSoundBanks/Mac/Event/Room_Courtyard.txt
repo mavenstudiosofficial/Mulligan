@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2944170584	Room_Courtyard			\Music\Castle\Room_Courtyard	
+

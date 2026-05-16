@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "365007833",
+    "Type": "Event",
+    "GUID": "{362D7C0E-F206-47B3-91B8-9A2F68D4D04F}",
+    "Language": "SFX",
+    "Hash": "{ADC41CBA-B758-4B8E-C2F8-F8660C4A4CF4}",
+    "ObjectPath": "Play_UI_DECK_ADD_CARD",
+    "ShortName": "Play_UI_DECK_ADD_CARD",
+    "Path": "Event/Play_UI_DECK_ADD_CARD.bnk",
+    "Media": [
+     {
+      "Id": "368758843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DECK_ADD_CARD.wav",
+      "Path": "Media/368758843.wem",
+      "CachePath": "2B/{2BE139A3-A3F8-5D17-8173-720433D19F3A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "365007833",
+      "Name": "Play_UI_DECK_ADD_CARD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_DECK_ADD_CARD",
+      "GUID": "{362D7C0E-F206-47B3-91B8-9A2F68D4D04F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32108334",
+      "DurationMax": "0.32108334",
+      "MediaRefs": [
+       {
+        "Id": "368758843"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{999E0324-CA92-2122-7F7A-304B0EA0DE46}"
+ }
+}

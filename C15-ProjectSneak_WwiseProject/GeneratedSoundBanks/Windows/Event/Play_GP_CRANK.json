@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2170681539",
+    "Type": "Event",
+    "GUID": "{EAE17A3A-97DB-4C48-8812-30E16F1A96B2}",
+    "Language": "SFX",
+    "Hash": "{43D3F3AC-0774-075D-D0CD-D483744F055B}",
+    "ObjectPath": "Play_GP_CRANK",
+    "ShortName": "Play_GP_CRANK",
+    "Path": "Event/Play_GP_CRANK.bnk",
+    "Media": [
+     {
+      "Id": "100052714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_CRANK.wav",
+      "Path": "Media/100052714.wem",
+      "CachePath": "66/{660DCD89-4859-96B1-8D2F-7540FF61465E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2170681539",
+      "Name": "Play_GP_CRANK",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_CRANK",
+      "GUID": "{EAE17A3A-97DB-4C48-8812-30E16F1A96B2}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "100052714"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A380C317-0176-10B6-D7A2-27FA63B07109}"
+ }
+}

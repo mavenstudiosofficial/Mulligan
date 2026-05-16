@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4149291343",
+    "Type": "Event",
+    "GUID": "{B0DCCDB5-DD6C-47C6-A6C1-0460073DFED1}",
+    "Language": "SFX",
+    "Hash": "{F0C50A30-DC42-0A18-4E30-CB3FA5388906}",
+    "ObjectPath": "PlayCursedCard",
+    "ShortName": "PlayCursedCard",
+    "Path": "Event/PlayCursedCard.bnk",
+    "Events": [
+     {
+      "Id": "4149291343",
+      "Name": "PlayCursedCard",
+      "ObjectPath": "\\Events\\Music\\Stingers\\PlayCursedCard",
+      "GUID": "{B0DCCDB5-DD6C-47C6-A6C1-0460073DFED1}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionTrigger": [
+       {
+        "Id": "164795876",
+        "Name": "CursedCardPull",
+        "ObjectPath": "\\Triggers\\Music\\CursedCardPull",
+        "GUID": "{91F39331-5DC5-4CC3-8630-09317394D7E2}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "164795876",
+      "Name": "CursedCardPull",
+      "ObjectPath": "\\Triggers\\Music\\CursedCardPull",
+      "GUID": "{91F39331-5DC5-4CC3-8630-09317394D7E2}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{43602559-A9B2-F329-9F87-2AAEF4F6C504}"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "367553985",
+    "Type": "Event",
+    "GUID": "{C64B6C35-6193-4BAF-B060-EEB6DF7CCE56}",
+    "Language": "SFX",
+    "Hash": "{F5ED96A8-9A24-8DE3-2D2A-7C3ADB2D1285}",
+    "ObjectPath": "Play_GP_CRUSHER_TRAP_TAIL",
+    "ShortName": "Play_GP_CRUSHER_TRAP_TAIL",
+    "Path": "Event/Play_GP_CRUSHER_TRAP_TAIL.bnk",
+    "Media": [
+     {
+      "Id": "1035127991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_CRUSHER_TRAP_TAIL.wav",
+      "Path": "Media/1035127991.wem",
+      "CachePath": "09/{09E3C016-1835-8F1A-4699-D47F8B33E7B4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "367553985",
+      "Name": "Play_GP_CRUSHER_TRAP_TAIL",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_CRUSHER_TRAP_TAIL",
+      "GUID": "{C64B6C35-6193-4BAF-B060-EEB6DF7CCE56}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.96871954",
+      "DurationMax": "1.3118937",
+      "MediaRefs": [
+       {
+        "Id": "1035127991"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{17A3AB19-2996-9478-39A2-167B87195569}"
+ }
+}

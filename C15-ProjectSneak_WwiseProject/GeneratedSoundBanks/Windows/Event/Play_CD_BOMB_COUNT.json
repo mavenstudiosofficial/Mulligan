@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1941252358",
+    "Type": "Event",
+    "GUID": "{ECD28532-204C-4955-901F-34A1A46667FC}",
+    "Language": "SFX",
+    "Hash": "{B37F92BA-DCC3-984C-F958-64A78842C2EA}",
+    "ObjectPath": "Play_CD_BOMB_COUNT",
+    "ShortName": "Play_CD_BOMB_COUNT",
+    "Path": "Event/Play_CD_BOMB_COUNT.bnk",
+    "Media": [
+     {
+      "Id": "568289002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CD_BOMB_COUNT.wav",
+      "Path": "Media/568289002.wem",
+      "CachePath": "5D/{5D829983-0BFE-478B-A952-CDCE06AB1B43}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1941252358",
+      "Name": "Play_CD_BOMB_COUNT",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CD_BOMB_COUNT",
+      "GUID": "{ECD28532-204C-4955-901F-34A1A46667FC}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.4536572",
+      "DurationMax": "4.1071134",
+      "MediaRefs": [
+       {
+        "Id": "568289002"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{474507C4-78E3-2357-5AFF-134409EE51B5}"
+ }
+}

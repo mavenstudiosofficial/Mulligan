@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	365007833	Play_UI_DECK_ADD_CARD			\Default Work Unit\Play_UI_DECK_ADD_CARD	
+

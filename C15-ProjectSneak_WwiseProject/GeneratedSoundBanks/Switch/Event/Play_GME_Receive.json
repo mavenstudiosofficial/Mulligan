@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1185674625",
+    "Type": "Event",
+    "GUID": "{9ED16DAF-E4DD-495F-A302-47E004E0DBE5}",
+    "Language": "SFX",
+    "Hash": "{E44F88DC-C48F-61F7-4638-3C6452703868}",
+    "ObjectPath": "Play_GME_Receive",
+    "ShortName": "Play_GME_Receive",
+    "Path": "Event/Play_GME_Receive.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "225565245",
+       "Name": "Tencent GME Receive",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\GME\\GME Receive\\Tencent GME Receive",
+       "GUID": "{DC1455B7-45D0-4CF6-BD13-9E01B992E262}",
+       "LibName": "Tencent GME Receive",
+       "LibId": "590025234"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1185674625",
+      "Name": "Play_GME_Receive",
+      "ObjectPath": "\\Events\\Default Work Unit\\GME\\Play_GME_Receive",
+      "GUID": "{9ED16DAF-E4DD-495F-A302-47E004E0DBE5}",
+      "MaxAttenuation": "100",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "225565245"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BFFB6941-A1BE-B43F-CA0A-86D326874991}"
+ }
+}

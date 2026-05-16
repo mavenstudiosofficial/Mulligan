@@ -1,0 +1,107 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1412380748",
+    "Type": "Event",
+    "GUID": "{DFFA6E59-8842-429C-9FF5-B9C355F2889A}",
+    "Language": "SFX",
+    "Hash": "{FD4FB589-CCF0-92B6-EB45-45FDAAE8AB61}",
+    "ObjectPath": "ChaseEndCastle",
+    "ShortName": "ChaseEndCastle",
+    "Path": "Event/ChaseEndCastle.bnk",
+    "Events": [
+     {
+      "Id": "1412380748",
+      "Name": "ChaseEndCastle",
+      "ObjectPath": "\\Events\\Music\\Castle\\ChaseEndCastle",
+      "GUID": "{DFFA6E59-8842-429C-9FF5-B9C355F2889A}",
+      "Color": "4",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "2678230316",
+        "Id": "129146593",
+        "Name": "Castle",
+        "ObjectPath": "\\States\\Music\\Levels\\Castle",
+        "GUID": "{90D65B2D-89C7-42B4-867C-C24A185A29DB}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2678230316",
+      "Name": "Levels",
+      "ObjectPath": "\\States\\Music\\Levels",
+      "GUID": "{EA142439-5BFF-495C-B335-CED181CF4604}",
+      "States": [
+       {
+        "Id": "129146593",
+        "Name": "Castle",
+        "ObjectPath": "\\States\\Music\\Levels\\Castle",
+        "GUID": "{90D65B2D-89C7-42B4-867C-C24A185A29DB}"
+       },
+       {
+        "Id": "260303802",
+        "Name": "Boiler",
+        "ObjectPath": "\\States\\Music\\Levels\\Boiler",
+        "GUID": "{6752B845-C484-42E2-AB77-9DFCE054C24F}"
+       },
+       {
+        "Id": "417490929",
+        "Name": "Chase",
+        "ObjectPath": "\\States\\Music\\Levels\\Chase",
+        "GUID": "{62874E73-ACE5-4DCE-87AA-42CA596117D9}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Levels\\None",
+        "GUID": "{DBE25A59-2DA2-495F-AC74-4E11BA4E6A0E}"
+       },
+       {
+        "Id": "979765101",
+        "Name": "Win",
+        "ObjectPath": "\\States\\Music\\Levels\\Win",
+        "GUID": "{AEE0EA34-75C4-4437-9233-9700242848A8}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Music\\Levels\\Menu",
+        "GUID": "{C2DAE43C-F64C-441A-93E6-08FFD8F61925}"
+       },
+       {
+        "Id": "2761606855",
+        "Name": "Crypt",
+        "ObjectPath": "\\States\\Music\\Levels\\Crypt",
+        "GUID": "{E904A1E2-69C7-4C51-BC50-50B56BE3BF2A}"
+       },
+       {
+        "Id": "3573931707",
+        "Name": "Loading",
+        "ObjectPath": "\\States\\Music\\Levels\\Loading",
+        "GUID": "{E777A568-70B5-4EB9-A09C-3076C171B9B4}"
+       },
+       {
+        "Id": "3965737440",
+        "Name": "Setup",
+        "ObjectPath": "\\States\\Music\\Levels\\Setup",
+        "GUID": "{3177EE0D-AC73-423C-AAC9-F886810FDE98}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A7EC13DE-AB2F-6C81-F2A1-5CEAF3155B16}"
+ }
+}

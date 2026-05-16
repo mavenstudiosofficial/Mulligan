@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	928036824	Play_TestAudio			\Default Work Unit\Play_TestAudio	
+
+Effect plug-ins	ID	Name	Type				Notes
+	120728380	Tencent GME Send (Custom)	Tencent GME Send			
+

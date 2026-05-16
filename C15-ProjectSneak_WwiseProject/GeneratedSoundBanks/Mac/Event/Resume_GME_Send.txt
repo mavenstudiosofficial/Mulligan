@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2806955317	Resume_GME_Send			\Default Work Unit\GME\Resume_GME_Send	
+

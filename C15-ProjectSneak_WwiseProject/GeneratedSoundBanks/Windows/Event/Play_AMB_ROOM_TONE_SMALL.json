@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1595910439",
+    "Type": "Event",
+    "GUID": "{33512B41-B132-4697-A269-512AD03D20DE}",
+    "Language": "SFX",
+    "Hash": "{435BF832-8B81-43E2-2341-0A66A8881128}",
+    "ObjectPath": "Play_AMB_ROOM_TONE_SMALL",
+    "ShortName": "Play_AMB_ROOM_TONE_SMALL",
+    "Path": "Event/Play_AMB_ROOM_TONE_SMALL.bnk",
+    "Media": [
+     {
+      "Id": "475556313",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_ROOM_TONE.wav",
+      "Path": "Media/475556313.wem",
+      "CachePath": "32/{3273416C-47C6-6FA1-E2FA-C86B027C6EAC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1595910439",
+      "Name": "Play_AMB_ROOM_TONE_SMALL",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_ROOM_TONE_SMALL",
+      "GUID": "{33512B41-B132-4697-A269-512AD03D20DE}",
+      "DurationType": "OneShot",
+      "DurationMin": "180",
+      "DurationMax": "180",
+      "MediaRefs": [
+       {
+        "Id": "475556313"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C1488B85-AA12-4DBD-FEDE-D9E5D70C7514}"
+ }
+}

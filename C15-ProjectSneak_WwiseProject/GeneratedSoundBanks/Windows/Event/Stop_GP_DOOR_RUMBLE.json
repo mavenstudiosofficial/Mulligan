@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1175594700",
+    "Type": "Event",
+    "GUID": "{801CC337-3FDF-4D7F-AF2E-22E753CC6C32}",
+    "Language": "SFX",
+    "Hash": "{9C0C59FF-6A96-5131-9901-6F998A42C25C}",
+    "ObjectPath": "Stop_GP_DOOR_RUMBLE",
+    "ShortName": "Stop_GP_DOOR_RUMBLE",
+    "Path": "Event/Stop_GP_DOOR_RUMBLE.bnk",
+    "Events": [
+     {
+      "Id": "1175594700",
+      "Name": "Stop_GP_DOOR_RUMBLE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GP_DOOR_RUMBLE",
+      "GUID": "{801CC337-3FDF-4D7F-AF2E-22E753CC6C32}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C4D98FA8-E056-D152-7183-43FCE84FE163}"
+ }
+}

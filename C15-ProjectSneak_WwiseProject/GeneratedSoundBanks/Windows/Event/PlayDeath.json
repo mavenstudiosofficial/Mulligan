@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2840201783",
+    "Type": "Event",
+    "GUID": "{994B055B-75AC-4FFD-B67A-C65A031A6A14}",
+    "Language": "SFX",
+    "Hash": "{FAAE077F-8340-F5CE-AE87-F48DE0FBD7AD}",
+    "ObjectPath": "PlayDeath",
+    "ShortName": "PlayDeath",
+    "Path": "Event/PlayDeath.bnk",
+    "Events": [
+     {
+      "Id": "2840201783",
+      "Name": "PlayDeath",
+      "ObjectPath": "\\Events\\Music\\Stingers\\PlayDeath",
+      "GUID": "{994B055B-75AC-4FFD-B67A-C65A031A6A14}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionTrigger": [
+       {
+        "Id": "779278001",
+        "Name": "Death",
+        "ObjectPath": "\\Triggers\\Music\\Death",
+        "GUID": "{76A371B3-BDAD-46FF-9625-B8293E796697}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "779278001",
+      "Name": "Death",
+      "ObjectPath": "\\Triggers\\Music\\Death",
+      "GUID": "{76A371B3-BDAD-46FF-9625-B8293E796697}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{280063CF-C039-7813-6282-F7599AA8BF61}"
+ }
+}
