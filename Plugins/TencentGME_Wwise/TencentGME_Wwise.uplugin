@@ -1,0 +1,29 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Tencent GME Real-time Voice Service for Wwise",
+  "Description": "Game Multimedia Engine(GME) is an end-to-end, scalable, high-quality and cost-efficient voice communication service that facilitates game players to instantly and effectively connect with each other across the globe. GME Wwise plugin set provides a complete integration solution for the games and Apps developed based on Wwise engine. After the combination between GME and Wwise, sound designer and game developer are able to create more comprehensive and immersive sound experience for the game.",
+  "Category": "Audio",
+  "CreatedBy": "Tencent",
+  "CreatedByURL": "http://www.tencent.com",
+  "DocsURL": "https://intl.cloud.tencent.com/product/gme",
+  "MarketplaceURL": "",
+  "SupportURL": "https://intl.cloud.tencent.com/product/gme",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "TencentGME_Wwise",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "Wwise",
+      "Enabled": true
+    }
+  ]
+}

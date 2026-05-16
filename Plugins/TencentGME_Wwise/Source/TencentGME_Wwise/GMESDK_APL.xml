@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--LogicCore additions-->
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- optional updates applied to AndroidManifest.xml -->
+  <androidManifestUpdates>
+    <log text="addPermission begin" />
+    <!--GME Permission start-->
+    <addPermission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <addPermission android:name="android.permission.RECORD_AUDIO"/>
+    <addPermission android:name="android.permission.INTERNET" />
+    <addPermission android:name="android.permission.BLUETOOTH" />
+    <!--GME Permission end-->
+  </androidManifestUpdates>
+  
+  <!--Copy SDK files to build folder-->
+  <resourceCopies>
+    <log text="GME plug-ins copied for Android architecture: $S(Architecture)" />
+    <copyDir src="$S(PluginDir)/../../ThirdParty/Android/$S(Architecture)/Release/bin/" dst="$S(BuildDir)/libs/$S(Architecture)/" />
+    <copyFile src="$S(PluginDir)/../../ThirdParty/Android/$S(Architecture)/gmesdk.jar" dst="$S(BuildDir)/libs/gmesdk.jar" />
+  </resourceCopies>
+
+  <!--GME code needed in onCreate -->
+  <gameActivityOnCreateAdditions>
+    <insert>
+		// Begin TencentGME gameActivityOnCreateAdditions
+		com.gme.GME.GMESDK.setApplicationContext(this);
+		// End TencentGME gameActivityOnCreateAdditions
+    </insert>
+  </gameActivityOnCreateAdditions>
+
+  <proguardAdditions>
+    <insert>
+      -dontwarn com.tencent.**
+      -keep class com.tencent.** { *;}
+      -keepclassmembers class com.tencent.**{*;}
+
+      -keepclasseswithmembers class * {
+      ... *JNI*(...);
+      }
+
+      -keepclasseswithmembernames class * {
+      ... *JRI*(...);
+      }
+
+      -keep class **JNI* {*;}
+      -keep class android.app.** {
+      *;
+      }
+    </insert>
+  </proguardAdditions>
+</root>
