@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6EEAEE6-8CF1-443B-B20C-8897A582B10C}" SchemaVersion="123">
+	<ControlSurfaceSessions>
+		<WorkUnit Name="Music" ID="{B6EEAEE6-8CF1-443B-B20C-8897A582B10C}" PersistMode="Standalone">
+			<ChildrenList>
+				<ControlSurfaceSession Name="Default Control Surface Session" ID="{E0A7D779-D290-4835-AE3B-3C552872E833}">
+					<ChildrenList>
+						<ControlSurfaceBindingGroup Name="Global" ID="{AAFB5520-187A-41C8-BF16-F9DAE74ACFC3}"/>
+						<ControlSurfaceBindingGroup Name="Current Selection" ID="{F63F9E03-2126-435C-AAAD-39961ABE185D}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{05D95558-5721-4683-9FCB-A2B0F20C53D3}">
+									<PropertyList>
+										<Property Name="TargetName" Type="string" Value="PassMidiNote"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="View Groups" ID="{210A6F69-BA88-4400-9988-F44974A3AD5E}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="3"/>
+							</PropertyList>
+						</ControlSurfaceBindingGroup>
+					</ChildrenList>
+				</ControlSurfaceSession>
+			</ChildrenList>
+		</WorkUnit>
+	</ControlSurfaceSessions>
+</WwiseDocument>
