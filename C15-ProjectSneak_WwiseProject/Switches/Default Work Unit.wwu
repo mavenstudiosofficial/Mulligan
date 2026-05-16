@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B071FD0-97DD-493C-AD50-7AB80BDE748E}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{5B071FD0-97DD-493C-AD50-7AB80BDE748E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{30EEE535-EBB5-4942-9091-98C4B1022F9A}">
+					<ChildrenList>
+						<Switch Name="Concrete" ID="{196EA11C-5CD1-4FC8-9BA9-732ACC0AD75F}"/>
+						<Switch Name="Gravel" ID="{F7C32B8A-269D-40FC-827C-A9AD79B726D7}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Character" ID="{9F662AD8-603A-4718-94C5-2DA9057911C9}">
+					<ChildrenList>
+						<Switch Name="Support" ID="{726B7066-14A8-4690-9963-C5E50937E9DE}"/>
+						<Switch Name="Strength" ID="{814AC6ED-786E-4E15-93F9-872EBD2894C9}"/>
+						<Switch Name="Sneak" ID="{A15EDEC3-1168-438E-96BB-7BD271EDCC80}"/>
+						<Switch Name="Strange" ID="{AE3718F2-D3B3-4BFB-A307-3EECAC714FEC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Movement" ID="{023CA147-4C48-4845-9CC8-B43786020F0D}">
+					<ChildrenList>
+						<Switch Name="Walk" ID="{04067C41-FDC6-4837-992D-0CDD23C3AA58}"/>
+						<Switch Name="Sprint" ID="{A10E6BBE-45CA-42AA-AC40-0D3175ABC7C1}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
