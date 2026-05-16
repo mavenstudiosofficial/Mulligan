@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{150ED0EF-30AF-45CD-9003-5DF0AC7B8C7C}" SchemaVersion="123">
+	<AudioDevices>
+		<WorkUnit Name="Default Work Unit" ID="{150ED0EF-30AF-45CD-9003-5DF0AC7B8C7C}" PersistMode="Standalone">
+			<ChildrenList>
+				<AudioDevice Name="System" ID="{D022B6F6-99B5-407B-A529-F0F7406C81F6}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{E96A73AB-FE54-4CAE-90E9-105DCA2FEE62}" ShortID="25051570"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{0BB2B7FC-1447-45B8-ABF8-8D4B0AC4E651}" ShortID="205511900"/>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</AudioDevice>
+				<AudioDevice Name="No_Output" ID="{2B18D074-9034-409C-8EA2-1846AA86382A}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioDevices>
+</WwiseDocument>
