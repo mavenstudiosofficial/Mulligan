@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RooibosOutlines",
+	"Description": "Highlight your actor with only a single function call",
+	"Category": "Other",
+	"CreatedBy": "Joram Wessels",
+	"CreatedByURL": "https://RooibosGames.com",
+	"DocsURL": "https://discord.gg/ty3r2e7nwr",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/60916571ffd040978892255348f119e0",
+	"SupportURL": "https://discord.gg/ty3r2e7nwr",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "RooibosOutlines",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "RooibosOutlinesEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
