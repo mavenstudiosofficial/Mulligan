@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B203971F-DD66-4D64-A080-DAF47FE66AD9}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{B203971F-DD66-4D64-A080-DAF47FE66AD9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{F9837CE8-90F8-43F6-AA36-B919E50C6D49}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Levels" ID="{010E3D7D-1B79-47BF-AF07-36EE048001DC}" WorkUnitID="{09E5CADC-7FD8-46F2-838C-329BF78013B8}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="MusicTest" ID="{CBEF2F71-E100-467F-87C6-53D0959019CE}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Character_Footstep" ID="{E5BF1C55-7A92-46AF-9E02-1B840143F60D}" WorkUnitID="{223A1AA4-972B-43F7-950B-B76C7E81F665}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_01" ID="{BAD9FB4A-7917-4318-9292-3BD9DF1C6F78}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayMusic" ID="{6CEE623F-54CA-4C39-80A7-1B3D1595684A}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

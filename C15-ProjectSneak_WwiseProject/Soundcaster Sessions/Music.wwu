@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64A59331-7DAA-4B3B-B96F-380C00C9E803}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Music" ID="{64A59331-7DAA-4B3B-B96F-380C00C9E803}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MX-Main" ID="{0617ABCD-B638-4CFC-96E8-709F25168323}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayMusic" ID="{6CEE623F-54CA-4C39-80A7-1B3D1595684A}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopMusic" ID="{D24DC2E5-FE3F-4933-B305-B93EF337E7A9}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ToMainMenu" ID="{165FA1AD-AD8E-44E1-8469-F14CEB35AF38}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetExploring" ID="{6E6BBC65-82A3-49C5-AC51-702AF026A7A2}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetEscaping" ID="{6C7CB7AA-A593-4A4A-8A36-E81B44637565}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWin" ID="{D1706750-8CAD-4B71-9313-B2ACB2E79FE6}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetDisturbanceLow" ID="{64F8431D-E9C7-4D29-BAAB-D9A17636FD54}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetDisturbanceMid" ID="{5D9746CB-FECB-4FD6-9327-83529869B0AE}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetDisturbanceHigh" ID="{51D5F54B-11B8-4CE6-8223-E03BC975EC5D}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChaseStart" ID="{FA819EBA-5CA6-4163-A42B-7C1F04776C1C}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ToSetupLevel" ID="{0C5D5373-8626-4CF8-A2AC-037D387E4FF8}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetupState_Neutral" ID="{7E8B5578-EDEA-4010-8069-DA4881E1F76E}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetupState_Shop" ID="{E60B9462-7432-4AB6-A7AD-30C70809C04E}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetupState_Cards" ID="{8903A38B-9278-4BFF-B7AB-36CA8D5516AB}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetupState_Character" ID="{13194202-D44D-4E71-BA78-0069DF0A3B9C}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetupState_Ready" ID="{97643E8D-D30D-462F-84A7-0570AE0F5DAE}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ToCastleLevel" ID="{CCBEC7EA-7BA4-4B03-9D73-6070B8F46332}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChaseEndCastle" ID="{DFFA6E59-8842-429C-9FF5-B9C355F2889A}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Foyer" ID="{2BF6F339-B933-4AA8-9AFB-6AD0F0CD2E83}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Throne" ID="{6AA2BE55-2327-4486-A63E-C49A587D7E06}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Courtyard" ID="{F13819AC-FA4C-4D57-BBFE-429AF7E6DDB4}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Hall" ID="{4C5D6745-40F5-4335-9BE9-DD9331948A71}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Barracks" ID="{CB19C014-2070-425A-88A7-E5798930D1F3}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Kitchen" ID="{F7145B92-FF0F-49D1-99FB-FB8D3328AB81}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Tower" ID="{4FFADB91-03C7-4704-AA32-33A81CA835B5}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Torture" ID="{A8BAC746-5823-4783-B433-40FDA34789BC}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Room_Exit" ID="{96534061-CB22-4D6E-AD86-3194C4E30BD4}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="3" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ToBoilerLevel" ID="{D1B70CD8-4150-48E8-B552-F038E58D147E}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChaseEndBoiler" ID="{4E2EB5B5-373E-4BE4-9091-291E0DEFE1EC}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetNotch1" ID="{B2D0F674-4824-4AFF-9004-F45FB373A202}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetNotch2" ID="{49489286-1A29-442E-BA51-8F6312E78A12}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetNotch3" ID="{1456E721-24F3-4E15-A564-9BEF7300B69C}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetNotch4" ID="{C3345F4D-0431-40C3-A1E6-EE2F25D968C6}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="4" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ToCryptLevel" ID="{32231F0E-555A-40C3-99DE-95863FC10F45}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChaseEndCrypt" ID="{50548305-EC2A-47AF-A381-24E656E1AA88}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayLoading" ID="{D5EFF716-B946-4553-8683-10A64A92E754}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayCardPull" ID="{800A32D8-1EAB-481C-864A-79F982A7F7B4}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="6" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayBigArtifactTake" ID="{D3F04BAC-F16B-404B-9EE1-90E608B4D01B}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="6" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayDeath" ID="{994B055B-75AC-4FFD-B67A-C65A031A6A14}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="6" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayCursedCard" ID="{B0DCCDB5-DD6C-47C6-A6C1-0460073DFED1}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="6" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlaySecretPassage" ID="{EA3AAD43-A179-45AC-91FC-260DF15CF8D0}" WorkUnitID="{97514132-95BF-4BF3-9FDE-362D3316F4CF}"/>
+							<Position X="6" Y="5"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
