@@ -121,7 +121,7 @@ void AProjectSneakGameStateBase::AddNoise_ServerAuth(float NoiseDelta)
 void AProjectSneakGameStateBase::SetDisturbance_ServerAuth(float NewDisturbance)
 {
 	if (!HasAuthority()) return;
-	if (NewDisturbance <= 0.0f) return;
+	if (NewDisturbance < 0.0f) return;
 
 	if (DisturbanceBlock > 0)
 	{
