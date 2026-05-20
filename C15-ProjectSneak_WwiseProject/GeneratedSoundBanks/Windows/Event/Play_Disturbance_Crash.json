@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3572632562",
+    "Type": "Event",
+    "GUID": "{70159841-6C62-41B6-915E-AEE085D5296F}",
+    "Language": "SFX",
+    "Hash": "{D38CAF64-DC12-605B-1840-CC80C383B8E9}",
+    "ObjectPath": "Play_Disturbance_Crash",
+    "ShortName": "Play_Disturbance_Crash",
+    "Path": "Event/Play_Disturbance_Crash.bnk",
+    "Media": [
+     {
+      "Id": "270424853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ENV_DISTURBANCE_CRASH_02.wav",
+      "Path": "Media/270424853.wem",
+      "CachePath": "72/{721DBBD9-F1E8-B593-D811-886DC1FC5EDB}.wem"
+     },
+     {
+      "Id": "667753647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ENV_DISTURBANCE_CRASH_03.wav",
+      "Path": "Media/667753647.wem",
+      "CachePath": "E2/{E2EE1F3D-B7E6-799E-CB9A-6310A86C278F}.wem"
+     },
+     {
+      "Id": "1020741336",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ENV_DISTURBANCE_CRASH_01.wav",
+      "Path": "Media/1020741336.wem",
+      "CachePath": "6B/{6B654EA0-76C8-F580-7BBA-0ECF7FF63FC4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3572632562",
+      "Name": "Play_Disturbance_Crash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Disturbance_Crash",
+      "GUID": "{70159841-6C62-41B6-915E-AEE085D5296F}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.875875",
+      "DurationMax": "3.1292918",
+      "MediaRefs": [
+       {
+        "Id": "270424853"
+       },
+       {
+        "Id": "667753647"
+       },
+       {
+        "Id": "1020741336"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{19BAE259-5B69-797A-8B23-41A69578B320}"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4249918909",
+    "Type": "Event",
+    "GUID": "{2415AF76-EE23-4FB2-9F5A-C87DF1013387}",
+    "Language": "SFX",
+    "Hash": "{7F1AE93B-81CF-B499-E014-9910C3AE0369}",
+    "ObjectPath": "Play_GP_BOILER",
+    "ShortName": "Play_GP_BOILER",
+    "Path": "Event/Play_GP_BOILER.bnk",
+    "Media": [
+     {
+      "Id": "185778377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GP_BOILER.wav",
+      "Path": "Media/185778377.wem",
+      "CachePath": "20/{204BC8F0-C003-D7F3-3D20-16CD3AA583C2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4249918909",
+      "Name": "Play_GP_BOILER",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GP_BOILER",
+      "GUID": "{2415AF76-EE23-4FB2-9F5A-C87DF1013387}",
+      "MaxAttenuation": "4000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "185778377"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5AEC6940-D1F0-1E69-0FE4-BC091EA8270C}"
+ }
+}
