@@ -103,6 +103,12 @@ void UShopSystem::GetOptions(UCardHolder* cardHolder, const FShopItem& shopItem,
 					cards.RemoveAtSwap(i);
 					continue;
 				}
+
+				if (libraryCard->type == FCardType::Class && !cardHolder->IsCardClassMatch(libraryCard->classType)) 
+				{
+					cards.RemoveAtSwap(i);
+					continue;
+				}
 			}
 		}
 
