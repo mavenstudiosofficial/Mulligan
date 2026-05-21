@@ -88,7 +88,7 @@ void UShopSystem::GetOptions(UCardHolder* cardHolder, const FShopItem& shopItem,
 		for (int32 i = cards.Num() - 1; i >= 0; i--)
 		{
 			auto libraryCard = cards[i].GetDefaultObject();
-			if ((shopItem.isDefaultCard && libraryCard->type != FCardType::Default && libraryCard->type != FCardType::Class) ||
+			if ((shopItem.isDefaultCard && libraryCard->type != FCardType::Default) ||
 				(!shopItem.isDefaultCard && libraryCard->type != FCardType::Consumable))
 			{
 				cards.RemoveAtSwap(i);
