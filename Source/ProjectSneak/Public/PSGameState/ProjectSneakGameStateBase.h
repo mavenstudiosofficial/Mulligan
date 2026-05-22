@@ -115,8 +115,6 @@ private:
 	bool bNoiseAddedSinceLastBroadcast = false;
 	float TimeSinceLastNoiseAddedSeconds = 0.0f;
 
-	float ConsumeDisturbanceBlockForIncrease(float RequestedIncrease);
-
 	void BroadcastNoiseToClients();
 
 	UFUNCTION()

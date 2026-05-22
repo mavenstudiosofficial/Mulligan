@@ -68,17 +68,11 @@ void AProjectSneakGameStateBase::SetNoise_ServerAuth(float NewNoise)
 		const int32 ThresholdsCrossed = FMath::Max(1, FMath::FloorToInt(NewNoise / NoiseMax));
 
 		Alert += static_cast<float>(ThresholdsCrossed);
-
-		const float DisturbanceIncrease = ConsumeDisturbanceBlockForIncrease(static_cast<float>(ThresholdsCrossed));
-		if (DisturbanceIncrease > 0.0f)
-		{
-			Disturbance += DisturbanceIncrease;
-			OnRep_Disturbance();
-		}
-
+		Disturbance += static_cast<float>(ThresholdsCrossed);
 		Noise = 0.0f;
 
 		OnRep_Alert();
+		OnRep_Disturbance();
 		ForceNetUpdate();
 	}
 	else
@@ -103,17 +97,11 @@ void AProjectSneakGameStateBase::AddNoise_ServerAuth(float NoiseDelta)
 			const int32 ThresholdsCrossed = FMath::Max(1, FMath::FloorToInt(NewTotal / NoiseMax));
 
 			Alert += static_cast<float>(ThresholdsCrossed);
-
-			const float DisturbanceIncrease = ConsumeDisturbanceBlockForIncrease(static_cast<float>(ThresholdsCrossed));
-			if (DisturbanceIncrease > 0.0f)
-			{
-				Disturbance += DisturbanceIncrease;
-				OnRep_Disturbance();
-			}
-
+			Disturbance += static_cast<float>(ThresholdsCrossed);
 			Noise = 0.0f;
 
 			OnRep_Alert();
+			OnRep_Disturbance();
 			ForceNetUpdate();
 		}
 		else
@@ -135,24 +123,22 @@ void AProjectSneakGameStateBase::SetDisturbance_ServerAuth(float NewDisturbance)
 	if (!HasAuthority()) return;
 	if (NewDisturbance < 0.0f) return;
 
-	const float RequestedIncrease = NewDisturbance - Disturbance;
-
-	if (RequestedIncrease <= 0.0f)
+	if (DisturbanceBlock > 0)
 	{
-		Disturbance = NewDisturbance;
-		OnRep_Disturbance();
-		ForceNetUpdate();
+		const int32 BlockCost = FMath::CeilToInt(NewDisturbance - Disturbance);
+		const int32 OldBlock = DisturbanceBlock;
+		DisturbanceBlock = FMath::Max(0, DisturbanceBlock - BlockCost);
+
+		if (DisturbanceBlock != OldBlock)
+		{
+			OnRep_DisturbanceBlock();
+			ForceNetUpdate();
+		}
 		return;
 	}
 
-	const float AppliedIncrease = ConsumeDisturbanceBlockForIncrease(RequestedIncrease);
-
-	if (AppliedIncrease > 0.0f)
-	{
-		Disturbance += AppliedIncrease;
-		OnRep_Disturbance();
-	}
-
+	Disturbance = NewDisturbance;
+	OnRep_Disturbance();
 	ForceNetUpdate();
 }
 
@@ -161,14 +147,22 @@ void AProjectSneakGameStateBase::AddDisturbance_ServerAuth(float AddDisturbance)
 	if (!HasAuthority()) return;
 	if (AddDisturbance <= 0.0f) return;
 
-	const float AppliedIncrease = ConsumeDisturbanceBlockForIncrease(AddDisturbance);
-
-	if (AppliedIncrease > 0.0f)
+	if (DisturbanceBlock > 0)
 	{
-		Disturbance += AppliedIncrease;
-		OnRep_Disturbance();
+		const int32 BlockCost = FMath::CeilToInt(AddDisturbance);
+		const int32 OldBlock = DisturbanceBlock;
+		DisturbanceBlock = FMath::Max(0, DisturbanceBlock - BlockCost);
+
+		if (DisturbanceBlock != OldBlock)
+		{
+			OnRep_DisturbanceBlock();
+			ForceNetUpdate();
+		}
+		return;
 	}
 
+	Disturbance += AddDisturbance;
+	OnRep_Disturbance();
 	ForceNetUpdate();
 }
 
@@ -204,7 +198,7 @@ void AProjectSneakGameStateBase::AddDisturbanceBlock_ServerAuth(int32 AddDisturb
 {
 	if (!HasAuthority()) return;
 
-	DisturbanceBlock = FMath::Max(0, DisturbanceBlock + AddDisturbanceBlock);
+	DisturbanceBlock += AddDisturbanceBlock;
 
 	OnRep_DisturbanceBlock();
 	ForceNetUpdate();
@@ -290,32 +284,6 @@ void AProjectSneakGameStateBase::EndPlay(const EEndPlayReason::Type EndPlayReaso
 {
 	GetWorldTimerManager().ClearTimer(NoiseBroadcastTimerHandle);
 	Super::EndPlay(EndPlayReason);
-}
-
-float AProjectSneakGameStateBase::ConsumeDisturbanceBlockForIncrease(float RequestedIncrease)
-{
-	if (RequestedIncrease <= 0.0f)
-	{
-		return 0.0f;
-	}
-
-	if (DisturbanceBlock <= 0)
-	{
-		return RequestedIncrease;
-	}
-
-	const int32 OldBlock = DisturbanceBlock;
-	const int32 BlockCost = FMath::CeilToInt(RequestedIncrease);
-	const int32 BlockSpent = FMath::Min(DisturbanceBlock, BlockCost);
-
-	DisturbanceBlock = FMath::Max(0, DisturbanceBlock - BlockSpent);
-
-	if (DisturbanceBlock != OldBlock)
-	{
-		OnRep_DisturbanceBlock();
-	}
-
-	return FMath::Max(0.0f, RequestedIncrease - static_cast<float>(BlockSpent));
 }
 
 void AProjectSneakGameStateBase::BroadcastNoiseToClients()

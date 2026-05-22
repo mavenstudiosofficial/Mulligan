@@ -232,14 +232,12 @@ void UDifficultySubsystem::SetNoise(float NewNoise)
 		const float OldNoise = GS->Noise;
 		const float OldAlert = GS->Alert;
 		const float OldDisturbance = GS->Disturbance;
-		const int32 OldBlock = GS->DisturbanceBlock;
 
 		GS->SetNoise_ServerAuth(NewNoise);
 
 		const float NoiseDelta = GS->Noise - OldNoise;
 		const float AlertDelta = GS->Alert - OldAlert;
 		const float DisturbanceDelta = GS->Disturbance - OldDisturbance;
-		const int32 BlockDelta = GS->DisturbanceBlock - OldBlock;
 
 		if (!FMath::IsNearlyZero(NoiseDelta))
 		{
@@ -254,11 +252,6 @@ void UDifficultySubsystem::SetNoise(float NewNoise)
 		if (!FMath::IsNearlyZero(DisturbanceDelta))
 		{
 			BroadcastDisturbanceChanged(GS->Disturbance, DisturbanceDelta);
-		}
-
-		if (BlockDelta != 0)
-		{
-			BroadcastDisturbanceBlockChanged(GS->DisturbanceBlock, BlockDelta);
 		}
 	}
 }
@@ -273,14 +266,12 @@ void UDifficultySubsystem::AddNoise(float Delta)
 		const float OldNoise = GS->Noise;
 		const float OldAlert = GS->Alert;
 		const float OldDisturbance = GS->Disturbance;
-		const int32 OldBlock = GS->DisturbanceBlock;
 
 		GS->AddNoise_ServerAuth(Delta);
 
 		const float NoiseDelta = GS->Noise - OldNoise;
 		const float AlertDelta = GS->Alert - OldAlert;
 		const float DisturbanceDelta = GS->Disturbance - OldDisturbance;
-		const int32 BlockDelta = GS->DisturbanceBlock - OldBlock;
 
 		if (!FMath::IsNearlyZero(NoiseDelta))
 		{
@@ -295,11 +286,6 @@ void UDifficultySubsystem::AddNoise(float Delta)
 		if (!FMath::IsNearlyZero(DisturbanceDelta))
 		{
 			BroadcastDisturbanceChanged(GS->Disturbance, DisturbanceDelta);
-		}
-
-		if (BlockDelta != 0)
-		{
-			BroadcastDisturbanceBlockChanged(GS->DisturbanceBlock, BlockDelta);
 		}
 	}
 }
