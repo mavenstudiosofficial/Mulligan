@@ -170,9 +170,38 @@ private:
 	void FlushNoiseToServer();
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
+	UPROPERTY(ReplicatedUsing = OnRep_GemCount, BlueprintReadOnly, Category = "Currency", meta = (AllowPrivateAccess = "true"))
 	int32 GemCount = 0;
+
+	UPROPERTY(ReplicatedUsing = OnRep_CoinCount, BlueprintReadOnly, Category = "Currency", meta = (AllowPrivateAccess = "true"))
 	int32 CoinCount = 0;
+
+	UPROPERTY(ReplicatedUsing = OnRep_KeyCount, BlueprintReadOnly, Category = "Currency", meta = (AllowPrivateAccess = "true"))
 	int32 KeyCount = 0;
+
+	UFUNCTION()
+	void OnRep_GemCount();
+
+	UFUNCTION()
+	void OnRep_CoinCount();
+
+	UFUNCTION()
+	void OnRep_KeyCount();
+
+	UFUNCTION(Server, Reliable)
+	void Server_SetGemCount(int32 Value);
+
+	UFUNCTION(Server, Reliable)
+	void Server_ChangeGemCount(int32 AdditionalCount);
+
+	UFUNCTION(Server, Reliable)
+	void Server_SetCoinCount(int32 Value);
+
+	UFUNCTION(Server, Reliable)
+	void Server_ChangeCoinCount(int32 AdditionalCount);
+
+	UFUNCTION(Server, Reliable)
+	void Server_ChangeKeyCount(int32 AdditionalCount);
 
 	UPROPERTY(EditDefaultsOnly, Category = "Death")
 	TSubclassOf<class AProjectSneakCharacter> OtherLifeState;

@@ -97,6 +97,10 @@ void AProjectSneakCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(AProjectSneakCharacter, bRunningRep);
 	DOREPLIFETIME(AProjectSneakCharacter, ReplicatedLookPitch);
+
+	DOREPLIFETIME(AProjectSneakCharacter, GemCount);
+	DOREPLIFETIME(AProjectSneakCharacter, CoinCount);
+	DOREPLIFETIME(AProjectSneakCharacter, KeyCount);
 }
 
 /// <summary>
@@ -471,42 +475,132 @@ void AProjectSneakCharacter::SpawnProjectile_Server(UProjectileDefinition* Defin
 
 void AProjectSneakCharacter::SetGemCount(int32 value)
 {
-	GemCount = value;
+	if (HasAuthority())
+	{
+		GemCount = value;
+		OnRep_GemCount();
+		ForceNetUpdate();
+		return;
+	}
+
+	Server_SetGemCount(value);
 }
 
 void AProjectSneakCharacter::ChangeGemCount(int32 AdditionalCount)
 {
-	GemCount += AdditionalCount;
+	if (HasAuthority())
+	{
+		GemCount += AdditionalCount;
+		OnRep_GemCount();
+		ForceNetUpdate();
+		return;
+	}
+
+	Server_ChangeGemCount(AdditionalCount);
 }
 
-int32 AProjectSneakCharacter::GetGemCount() 
+int32 AProjectSneakCharacter::GetGemCount()
 {
 	return GemCount;
 }
 
 void AProjectSneakCharacter::SetCoinCount(int32 value)
 {
-	CoinCount = value;
+	if (HasAuthority())
+	{
+		CoinCount = value;
+		OnRep_CoinCount();
+		ForceNetUpdate();
+		return;
+	}
+
+	Server_SetCoinCount(value);
 }
 
 void AProjectSneakCharacter::ChangeCoinCount(int32 AdditionalCount)
 {
-	CoinCount += AdditionalCount;
+	if (HasAuthority())
+	{
+		CoinCount += AdditionalCount;
+		OnRep_CoinCount();
+		ForceNetUpdate();
+		return;
+	}
+
+	Server_ChangeCoinCount(AdditionalCount);
 }
 
-int32 AProjectSneakCharacter::GetCoinCount() 
+int32 AProjectSneakCharacter::GetCoinCount()
 {
 	return CoinCount;
 }
 
 void AProjectSneakCharacter::ChangeKeyCount(int32 AdditionalCount)
 {
-	KeyCount += AdditionalCount;
+	if (HasAuthority())
+	{
+		KeyCount += AdditionalCount;
+		OnRep_KeyCount();
+		ForceNetUpdate();
+		return;
+	}
+
+	Server_ChangeKeyCount(AdditionalCount);
 }
 
 int32 AProjectSneakCharacter::GetKeyCount()
 {
 	return KeyCount;
+}
+
+void AProjectSneakCharacter::Server_SetGemCount_Implementation(int32 Value)
+{
+	GemCount = Value;
+	OnRep_GemCount();
+	ForceNetUpdate();
+}
+
+void AProjectSneakCharacter::Server_ChangeGemCount_Implementation(int32 AdditionalCount)
+{
+	GemCount += AdditionalCount;
+	OnRep_GemCount();
+	ForceNetUpdate();
+}
+
+void AProjectSneakCharacter::Server_SetCoinCount_Implementation(int32 Value)
+{
+	CoinCount = Value;
+	OnRep_CoinCount();
+	ForceNetUpdate();
+}
+
+void AProjectSneakCharacter::Server_ChangeCoinCount_Implementation(int32 AdditionalCount)
+{
+	CoinCount += AdditionalCount;
+	OnRep_CoinCount();
+	ForceNetUpdate();
+}
+
+void AProjectSneakCharacter::Server_ChangeKeyCount_Implementation(int32 AdditionalCount)
+{
+	KeyCount += AdditionalCount;
+	OnRep_KeyCount();
+	ForceNetUpdate();
+}
+
+void AProjectSneakCharacter::OnRep_GemCount()
+{
+	
+}
+
+void AProjectSneakCharacter::OnRep_CoinCount()
+{
+	
+}
+
+void AProjectSneakCharacter::OnRep_KeyCount()
+{
+	
 }
 
 void AProjectSneakCharacter::SwapLifeState(APlayerController* player)
